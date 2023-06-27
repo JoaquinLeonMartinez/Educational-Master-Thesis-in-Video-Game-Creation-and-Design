@@ -1,0 +1,53 @@
+[
+  {
+    "entity":
+    {
+      "name": "Scanner"
+      ,
+      "transform":
+      {
+        "pos": "-0.357939 0.929661 -0.0781119"
+        ,
+        "rotation": "-0.00856532 -0.816836 -0.542821 0.195064"
+      }
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/scanner_y_extintor/scanner_y_extintor_Scanner.mesh"
+        ,
+        "color": "0.345098 0.694118 0.105882 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/scanner_y_extintor/material_scanner.material"
+        ]
+      }
+    }
+  }
+  ,
+  {
+    "entity":
+    {
+      "name": "Anti_extintor"
+      ,
+      "transform":
+      {
+        "pos": "-0.357939 0.929661 -0.0781119"
+        ,
+        "rotation": "0.195184 -0.913821 -0.266407 0.236352"
+      }
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/scanner_y_extintor/scanner_y_extintor_Anti_extintor.mesh"
+        ,
+        "color": "0.835294 0.603922 0.898039 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/scanner_y_extintor/material_antiExtintor.material"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{9c593b11-afce-4ffd-b8de-11ff91fc08aa}">
+		<property name="assetPath">
+			<value>Music/Layers/Orchestra/A 1 bass_doubletap.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.5036666666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{41ed73f3-39ce-4e41-8026-a52a88c5efae}</destination>
+		</relationship>
+	</object>
+</objects>

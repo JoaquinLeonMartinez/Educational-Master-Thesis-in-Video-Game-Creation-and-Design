@@ -1,0 +1,49 @@
+[
+{
+    "entity":
+    {
+      "name": "madness_puddle",
+		  "render" : {
+        "mesh": "data/meshes/static_objects/charco_lejia1.mesh",
+        "color": "0.45 0.13 0.49 1",
+	      "materials":
+	      [
+          "data/materials/bleach.material"
+	      ]
+  		},
+      "abs_aabb" : {},
+      "transform":
+      {
+        "pos": "0 0 0",
+        "scale": 1
+      },
+      "collider":
+      {
+        "shapes":
+        [
+          {
+            "shape": "box"
+            ,
+            "half_size": "0.8 0.5 0.8"
+            ,
+            "offset":
+            {
+              "pos": "0.0 0.5 0.0"
+            }
+            ,
+            "trigger": true,
+            "group":"puddle"
+          }
+        ]
+      },
+      "comp_madness_puddle":{},
+      "tags" : ["enemy"],
+      "buffers" : {
+        "TCtesBleach" : {
+          "total_bytes" : 16,
+          "slot" : 13
+        }
+      }
+    }  
+}
+]

@@ -1,0 +1,10 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/LAMPARA_PALITOS/LAMPARAMaterial_Base_Color.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+    ,
+    "emissive": "data/textures/LAMPARA_PALITOS/LAMPARAMaterial_emissive.dds"
+  }
+}

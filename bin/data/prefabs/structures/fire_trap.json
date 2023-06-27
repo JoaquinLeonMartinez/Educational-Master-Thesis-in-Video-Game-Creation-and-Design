@@ -1,0 +1,119 @@
+[
+{
+    "entity":
+    {
+      "name": "Fire Particles",
+      "transform": {
+        "pos": "0 0 0",
+        "rotation": "0.0 0.0 0.0 1.0"
+      }
+      ,
+      "render":
+      {
+        "mesh": "unit_quad_xy_centered.mesh",
+        "materials":
+        [
+          "data/materials/vfx/particles_fire.material"
+        ]
+      },
+      "comp_fire_trap":{},
+
+      "buffers" : {
+        "instances" : {
+          "desc" : "Array of active particles at the start of the frame",
+          "bytes_per_elem" : 96,
+          "num_elems" : 1024
+        },
+        "instances_active" : {
+          "desc" : "Array of active particles after the update",
+          "bytes_per_elem" : 96,
+          "num_elems" : 1024
+        },
+        "system" : {
+          "desc" : "Stores dynamic information of this system: num particles alive/dead/time to next spawn/...",
+          "bytes_per_elem" : 16,
+          "num_elems" : 1
+        },
+        "indirect_draw" : {
+          "desc" : "Arguments of the draw instanced indirect. 5 x uint",
+          "bytes_per_elem" : 20,
+          "num_elems" : 1,
+          "is_indirect" : true,
+          "init_indirect_from_mesh" : "unit_quad_xy_centered.mesh"
+        },
+        "indirect_update" : {
+          "desc" : "Arguments of the dispachIndirect, so the CPU never knows how many particles are alive. 3 x uint",
+          "bytes_per_elem" : 12,
+          "num_elems" : 1,
+          "is_indirect" : true
+        },
+        "TCtesParticles" : {
+          "desc" : "Cte buffer to control emission parameters and update parameters",
+          "time_between_spawns" : 0.03,
+          "num_particles_per_spawn" : 10,
+          "center_radius" : 0.0,
+          "dir_aperture" : 0.12,
+          "speed" : "10.0 11.0",
+          "duration" : "0.95 1.15",
+          "emitter_dir" : "0 0 1",
+          "colors": [
+            [ 0.0, "1.0 0.0 0.0 1.0" ],
+            [ 0.2, "1.0 0.1 0.0 1.0" ],
+            [ 0.4, "1.0 0.4 0.0 1.0" ],
+            [ 0.6, "1.0 1.0 0.0 1.0" ],
+            [ 0.8, "0.0 0.0 0.0 0.8" ],
+            [ 1.0, "0.0 0.0 0.0 0.0" ]
+          ],
+          "sizes": [
+            [ 0.0, 0.5 ],
+            [ 1.0, 1.5 ]
+          ]
+        }
+      },
+      "compute" : [
+        {
+          "desc" : "Spawning just 1 thread",
+          "cs" : "cs_particles_fire_spawn.compute",
+          "sizes" : [1, 1, 1]
+        },
+        {
+          "desc" : "Updating as many thread groups as required & defined by the buffer indirect_update", 
+          "cs" : "cs_particles_fire_update.compute",
+          "sizes" : { 
+            "buffer": "indirect_update", 
+            "offset" : 0 
+          }
+        },
+        {
+          "swap_a" : "instances",
+          "swap_b" : "instances_active"
+        }
+      ],
+      "num_instances": "indirect_draw"
+    }
+  },
+  {
+    "entity":
+    {
+      "name": "PointLight"
+      ,
+      "transform":
+      {
+        "pos": "0.0 0.0 1.0"
+      }
+      ,
+      "light_point": {
+        "color": "1.0 0.4 0.0",
+        "intensity" : 4,
+        "radius" :  6
+      },
+      "abs_aabb":{},
+      "flickering":{
+        "target":"point",
+        "frequency": 2.5,
+        "amplitude": 3.0,
+        "base": 4
+      }
+    }
+  }
+]

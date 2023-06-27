@@ -1,0 +1,10 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/carrito/cart_diffuse.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

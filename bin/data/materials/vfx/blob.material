@@ -1,0 +1,12 @@
+{
+  "technique" : "blob.tech",
+  "category" :"distorsions",
+  "textures":
+  {
+   "albedo": "data/textures/vfx/T_Random_39.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

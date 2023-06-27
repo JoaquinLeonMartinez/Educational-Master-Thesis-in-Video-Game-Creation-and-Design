@@ -1,0 +1,8 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/Cupcake_Base_Color.dds"
+    ,
+    "normal": "data/textures/Cupcake_Normal_DirectX.dds"
+  }
+}

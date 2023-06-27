@@ -1,0 +1,16 @@
+{
+	"name" : "credits_screen",
+	"type" : "image",
+	"alias" :"credits_screen_root",
+	"size" : "1080 10000",
+	"position" : "270 0",
+	"texture" : "data/ui/textures/credits2.dds",
+	"effects" : [
+						{
+							
+							"type" : "animate_uv",
+							"name" : "effectAnimateCredit",
+							"speed" : "0.0 0.15"
+						}
+			]
+}

@@ -1,0 +1,42 @@
+[  
+  {
+    "entity":
+    {
+      "name": "ranged_sushi_decoy"
+      ,
+      "render":
+      {
+				"mesh": "data/meshes/interactive_objects/HotSauce.mesh",
+        "color": "1.0 1.0 1.0 1.0"
+      }
+      ,
+      "local_aabb" : {},
+      "abs_aabb" : {},
+      "transform":
+      {
+        "pos": "0 0 0"
+      }
+      ,
+      "collider":
+      {
+        "shapes":
+        [
+          {
+            "shape": "box"
+            ,
+            "half_size": "0.5 0.5 0.5"
+            ,
+            "offset":
+            {
+              "pos": "0.0 0.5 0.0"
+            }
+            ,
+            "group":"teleportable_obj"
+          }
+        ],
+        "dynamic": true
+        
+      }
+    }
+  }
+ ]

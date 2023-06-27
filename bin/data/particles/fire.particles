@@ -1,0 +1,12 @@
+{
+  "name" : "fire",
+  "texture" : "data/textures/particles/fire.dds",
+  "count" : 1,
+  "max_count" : 1,
+  "frame_size" : "0.25 0.25",
+  "frame_count" : 16,
+  "initial_frame" : 0,
+  "frame_time" : 0.1,
+  "duration" : [1.6, 1.6],
+  "size" : 10.0
+}

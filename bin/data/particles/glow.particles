@@ -1,0 +1,5 @@
+{
+  "name" : "glow",
+  "texture" : "data/textures/particles/glow.dds",
+  "particles_type" : 0
+}

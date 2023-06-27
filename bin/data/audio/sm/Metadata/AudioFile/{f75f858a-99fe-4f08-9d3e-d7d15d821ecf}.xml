@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{f75f858a-99fe-4f08-9d3e-d7d15d821ecf}">
+		<property name="assetPath">
+			<value>Character/SCart/wind_harsh_mountain_02_30_loop.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>31.931895833333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{41ed73f3-39ce-4e41-8026-a52a88c5efae}</destination>
+		</relationship>
+	</object>
+</objects>

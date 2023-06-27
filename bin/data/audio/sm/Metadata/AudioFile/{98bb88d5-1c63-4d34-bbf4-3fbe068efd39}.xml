@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{98bb88d5-1c63-4d34-bbf4-3fbe068efd39}">
+		<property name="assetPath">
+			<value>UI/PA_Lines/Line4_v2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.994761904761905</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{41ed73f3-39ce-4e41-8026-a52a88c5efae}</destination>
+		</relationship>
+	</object>
+</objects>

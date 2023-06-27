@@ -1,0 +1,23 @@
+[
+  {
+    "entity": {
+      "name": "BoltSphere_oven",
+      "transform": {
+        "pos": "0 0 0",
+        "scale": 0.0001
+      },
+      "render": {
+        "mesh": "data/meshes/static_objects/UnitSphere.mesh",
+        "color": "0.0 0.5 1.0 0.0",
+        "materials":
+        [
+          "data/materials/vfx/bolt_sphere.material"
+        ]
+      },
+      "bolt_sphere_oven":{},
+      "comp_self_destroy" : {
+        "_isEnabled": false
+      }
+    }
+  }
+]

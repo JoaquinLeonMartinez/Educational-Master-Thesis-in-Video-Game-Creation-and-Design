@@ -1,0 +1,27 @@
+[
+  {
+    "entity": {
+      "name": "AimCurve",
+      "transform": {
+        "pos": "0 0 0"
+      },
+      "render": {
+        "mesh": "data/meshes/static_objects/AimCylinder.mesh",
+        "color": "0.0 0.5 1.0 1.0",
+        "materials":
+        [
+          "data/materials/vfx/aim_curve.material"
+        ]
+      },
+      "parabolic_launch" : {
+        "velocity": 20.0
+      },
+          "buffers" : {
+            "TCtesAimCurve" : {
+                "total_bytes" : 16,
+                "slot" : 13
+            }
+          }
+    }
+  }
+]

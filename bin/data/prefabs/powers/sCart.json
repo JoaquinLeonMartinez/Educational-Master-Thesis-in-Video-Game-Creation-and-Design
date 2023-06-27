@@ -1,0 +1,32 @@
+[
+  {
+    "entity": {
+      "transform": {
+        "pos": "0 0 0"
+      },
+      "name": "sCart",
+      "render": {
+        "mesh": "data/meshes/static_objects/cart_001.mesh",
+        "materials":
+        [
+          "data/materials/supermarket_cart_material.material"
+        ]
+      },
+      "local_aabb": {},
+      "comp_checkpoint_register": {
+        "prefab": "data/prefabs/powers/sCart.json",
+        "entityTypeString": "SCART"
+      },
+	  "rigidbody": {},
+      "abs_aabb": {},
+      "tags": [],
+      "collider": {
+        "shape": "capsule",
+        "controller": true,
+        "radius": 0.4,
+        "height": 0.4,
+        "group": "carrito"
+      }
+    }
+  }
+]

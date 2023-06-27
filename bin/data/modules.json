@@ -1,0 +1,43 @@
+{
+  "update": [
+    "input_1",
+    "splash",
+    "boot",
+    "wingame",
+	"gameplay",
+    "game_controller",
+    "physics",
+    "test_cameras",
+    "fluid_decals",
+    "scripting",
+	"loading",
+    "game_ui",
+    "pause_menu",
+	"game_manager",
+    "navmesh",
+    "entities",
+	"main_menu",
+    "camera_mixer",
+    "particles",
+	"render",
+    "gpu_culling",
+    "logic",
+    "audio_manager",
+    "test_instancing",
+	"ui",
+	"scene_manager",
+	"intro_game"
+  ],
+  "render_debug": [
+    "render",
+    "entities",
+    "physics",
+    "camera_mixer",
+    "test_cameras",
+    "gpu_culling",
+	"scene_manager",
+	"game_manager",
+	"navmesh"
+	
+  ]
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{5f7a274d-5b60-4305-bf83-b9379f514a6e}">
+		<property name="assetPath">
+			<value>Enemies/Sushi/Seq 2.1 Hit #2 96 HK1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.36837500000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{41ed73f3-39ce-4e41-8026-a52a88c5efae}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,39 @@
+{
+	"name" : "intro_screen",
+	"alias" :"intro_screen_root",
+	"children" : 
+	[
+		{
+			"name" : "screen_intro",
+			"type" : "widget",
+			"size" : "1920 1529",
+			"children" : 
+			[
+				{
+					"name" : "background_intro_screen",
+					"type" : "image",
+					"size" : "1920 1529",
+					"texture" : "data/ui/textures/secuancia_comic.dds",
+					"effects" : [
+					{
+									"type" : "scale",
+									"name" : "effectScaleComic",
+									"scale" : "2.5 2.5",
+									"duration" : 0,
+									"mode" : "single"
+								},
+								{
+									
+									"type" : "animate_uv",
+									"name" : "effectAnimateComic",
+									"speed" : "0.1 0"
+								}
+					]
+				}
+			]
+			
+			 
+		}
+	]
+	
+}

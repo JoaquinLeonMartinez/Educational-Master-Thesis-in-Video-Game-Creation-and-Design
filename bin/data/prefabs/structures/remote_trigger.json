@@ -1,0 +1,32 @@
+[
+  {
+    "entity": {
+      "name": "remote_trigger_0",
+      "transform": {
+        "pos": "0 0 0"
+      },
+      "collider": {
+        "shapes": [
+          {
+            "shape": "box",
+            "half_size": "3.0 3.0 3.0",
+            "offset": {
+              "pos": "0.0 3.0 0.0"
+            },
+            "trigger": true,
+            "group": "trigger",
+            "mask": "player"
+          }
+        ]
+      },
+      "comp_remote_trigger": {
+        "entities_actions": [
+          {
+            "id": 77,
+            "activate": true
+          }
+        ]
+      }
+    }
+  }
+]

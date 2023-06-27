@@ -1,0 +1,26 @@
+
+{
+	"name" : "loading_sprite",
+	"alias" : "loading_sprite_root",
+	"type" : "widget",
+	"size" : "1080 640",
+	"children" : [
+		{
+			"name" : "loading",
+			"type" : "sprite",
+			"position" : "800 550",
+			"size" : "250 83",
+			"minUV" : "0 0",	
+			"texture" : "data/ui/textures/load_sprite_idle.dds",
+			"sprite_textures" : [
+				{
+					"texture_name" : "data/ui/textures/sprite_prueba.dds",
+					"frame_size" : "2048 682",
+					"fps" : 2,
+					"num_frames" : 3,
+					"original_size" : "2048 2048"
+				}
+			]
+		}
+	]
+}

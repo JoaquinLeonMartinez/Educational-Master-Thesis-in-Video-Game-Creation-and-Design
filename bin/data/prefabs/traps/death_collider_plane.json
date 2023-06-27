@@ -1,0 +1,22 @@
+[
+  {
+    "entity" : {
+      "transform" : {
+        "pos" : "-10 0 0"
+      },    
+      "abs_aabb" : {},
+      "name" : "Infinite Plane",
+      "collider" : {
+        "shape" : "plane",
+        "normal" : "1 0 0",
+        "distance" : 0,
+        "group":"floor",
+        "mask":"all"
+      },
+    "comp_death_collider" :{
+      "damage" : 1000
+    },
+      "tags": ["floor"]
+    }
+  }
+]

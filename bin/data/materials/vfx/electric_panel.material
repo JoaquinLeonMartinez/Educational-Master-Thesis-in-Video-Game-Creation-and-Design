@@ -1,0 +1,8 @@
+{
+  "technique" : "electric_panel.tech",
+  "casts_shadows" : false,
+  "category" : "shine",
+  "textures":
+  {
+  }
+}

@@ -1,0 +1,55 @@
+[
+  {
+    "entity" : {
+      "transform" : {
+        "pos" : "0 0 0",
+        "scale": 1.0
+      },    
+      "name" : "Cupcake",
+      "render" : {
+       "mesh": "data/meshes/cupcake_eneano.mesh"
+        ,
+        "color": "0.345098 0.780392 0.882353 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/cupcakebody.material"
+          ,
+          "data/materials/cupcakeeyebrows.material"
+        ]
+      },
+      "local_aabb" : {},
+      "abs_aabb" : {},
+      "bt_cupcake_explosive": {
+        "use_navmesh": true,
+        "jumpingCupcake" : false,
+        "explosionDelay" : 2.0,
+        "explosion_damage": 25.0,
+        "explosionRadius": 4.0,
+        "distanceExplosion" : 5.0,
+		"cone_vision" : 14.0,
+		"length_cone" : 5.0,
+		"half_cone" : 25.0
+		
+		
+		
+
+      },
+      "collider" : {
+        "shape": "capsule",
+          "controller": true,
+          "radius": 0.4,
+          "height": 0.5,
+          "group":"cupcake",
+          "mask":"all"
+      },
+      "rigidbody": {},
+      "comp_checkpoint_register":{
+        "prefab": "data/prefabs/enemies/bt_cupcake_explosive.json",
+        "entityTypeString": "EXPLOSIVE_CUPCAKE"
+      },
+      "tags" : ["enemy", "cupcake"]
+    }
+  }
+
+]

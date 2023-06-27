@@ -1,0 +1,69 @@
+[  
+  {
+    "entity":
+    {
+      "name": "Wall1"
+      ,
+      "local_aabb" : {},
+      "abs_aabb" : {},
+      "transform":
+      {
+        "pos": "12 3 20"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "collider":
+      {
+        "shapes":
+        [
+          {
+            "shape": "box"
+            ,
+            "half_size": "2.0 0.5 2.0"
+            ,
+            "offset":
+            {
+              "pos": "0.0 0.5 0.0"
+            }
+            ,
+            "density": 20000
+			
+			
+          }
+        ],
+		"dynamic" : true,
+  		"kinematic": true,
+		"platform" : true,
+  		"group":"scenario",
+  		"mask":"player"
+      },
+      "render":
+      {
+        "mesh": "data/meshes/Charco_lejia.mesh"
+        ,
+        "color": "0.529412 1 0.565656 1.0"
+        ,
+       "materials":
+        [
+          "data/materials/mapa.material"
+          
+        ]
+      },
+	  
+	  "ai_platform_mobile": {
+		
+			"mTravelTime_" : 100,
+			"mRotationSpeed_" : 50,
+			"mRotationTime_" : 5,
+			"curve":"data/curves/curvaTrap001.curve",
+			"platformType_" : 6,
+			"direction" :  0,
+			"axis" : "0 0 1"
+			
+	
+		},
+		"tags" : ["scenario"]	
+    }
+  }
+ ]

@@ -1,0 +1,12 @@
+{
+  "technique": "objs_culled_by_gpu.tech"
+  ,
+  "textures":
+  {
+    "albedo": "data/textures/mapa_asiatica/sale_letrero2_DefaultMaterial_BaseColor.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

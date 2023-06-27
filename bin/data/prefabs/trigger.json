@@ -1,0 +1,37 @@
+[
+  {
+    "entity":
+    {
+      "name": "StartAmbush"
+      ,
+      "transform":
+      {
+        "pos": "10 0 0"
+      },
+      "collider":
+      {
+          "shapes":
+          [
+            {
+              "shape": "box"
+              ,
+              "half_size": "7.32964 9.85992 10.0635"
+              ,
+              "offset":
+              {
+                "pos": "0.0 9.85992 0.0"
+              }
+              ,
+              "trigger": true,
+              "group": "trigger",
+              "mask" : "player"
+            }
+          ]
+        },
+        "trigger":{
+            "in_script":"Ambush",
+            "out_script":"Ambush"
+        }
+    }
+  }
+]

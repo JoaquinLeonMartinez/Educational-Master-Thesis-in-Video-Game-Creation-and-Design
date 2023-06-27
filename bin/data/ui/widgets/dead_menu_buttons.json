@@ -1,0 +1,59 @@
+{
+	"name" : "dead_menu_buttons",
+	"type" : "widget",
+	"alias" :"dead_menu_buttons_root",
+	"children" : 
+	[
+		{
+			"name" : "dead_buttons",
+			"type" : "widget",
+			"position" : "770 450",
+			"scale" : "0.8 0.8",
+			"children" :
+			[
+				{
+					"name" : "bt_restart_dead",
+					"alias" : "bt_restart_dead",
+					"position" : "0 300",
+					"type" : "button",
+					"texture" : "data/ui/textures/newtextures/menu_pausa_restartseleccion.dds",
+					"font_texture" : "data/ui/textures/font.dds",
+					"scale" : "0.8 0.8",
+					"size" : "256 59",
+					"font_size" : "20 230",
+					"states" : [
+						{
+							"name" : "enabled",
+							"texture" : "data/ui/textures/newtextures/menu_pausa_restartempty.dds"
+						},
+						{
+							"name" : "selected",
+							"texture" : "data/ui/textures/newtextures/menu_pausa_restartseleccion.dds"
+						}
+					]
+				},
+				{
+					"name" : "bt_exit_dead",
+					"alias" : "bt_exit_dead",
+					"position" : "220 300",
+					"type" : "button",
+					"texture" : "data/ui/textures/newtextures/menu_pausa_quitseleccion.dds",
+					"font_texture" : "data/ui/textures/font.dds",
+					"scale" : "0.9 0.9",
+					"size" : "256 59",
+					"font_size" : "20 20",
+					"states" : [
+						{
+							"name" : "enabled",
+							"texture" : "data/ui/textures/newtextures/menu_pausa_quitempty.dds"
+						},
+						{
+							"name" : "selected",
+							"texture" : "data/ui/textures/newtextures/menu_pausa_quitseleccion.dds"
+						}
+					]
+				}
+			]
+		}
+	]
+}

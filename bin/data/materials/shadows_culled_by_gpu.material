@@ -1,0 +1,6 @@
+{
+  "technique": "shadows_culled_by_gpu.tech",
+  "textures": {},
+  "category" : "shadows",
+  "casts_shadows" : false
+}

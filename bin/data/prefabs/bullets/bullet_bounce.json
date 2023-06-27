@@ -1,0 +1,29 @@
+[
+	{
+		"entity" : {
+			"render":
+			{
+				"mesh": "data/meshes/Platano.mesh"
+			},
+			"transform" : {
+        		"pos": "0 1.0 2"
+			},		
+			"name" : "bullet_bounce",
+			"collider":{
+				"shape" : "sphere",
+				"radius": 0.5,
+				"dynamic": true,
+				"density": 1.0,
+				"group": "bullet",
+				"mask":"all"
+			},
+			"bullet_bounce_controller" : {
+				"speed": 200.0,
+				"damage": 20.0,
+				"bounces": 3
+			},
+			"tags" : ["bullet"]
+		}
+	}
+]
+

@@ -1,0 +1,37 @@
+[
+	{
+		"entity" : {
+		    "render":
+     		 {
+       			"mesh": "data/meshes/Dumpling_Milestone2/Dumpling_Milestone2_Dumpling_milestone2.mesh"
+            ,
+            "color": "0.109804 0.34902 0.694118 1.0"
+            ,
+              "materials": [
+                "data/materials/Dumpling_Milestone2/default.material"
+              ]
+     	 	},
+			"transform" : {
+        		"pos": "0 1 0",
+				"scale": 10
+				
+			},		
+			"name" : "turret_bullet",
+			"local_aabb" : {},
+      		"abs_aabb" : {},
+			"collider":{
+				"shape" : "box",
+				"half_size": "0.4 0.4 0.4",
+				"dynamic": true,
+				"density": 100.0,
+				"group": "grenade",
+				"mask":"player_scenario"
+			},
+			"turret_bullet_controller" : {
+				"damage": 30.0
+			},
+			"tags" : ["bullet"]
+		}
+	}
+]
+

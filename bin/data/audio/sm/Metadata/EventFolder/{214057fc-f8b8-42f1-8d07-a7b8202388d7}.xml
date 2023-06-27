@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EventFolder" id="{214057fc-f8b8-42f1-8d07-a7b8202388d7}">
+		<property name="name">
+			<value>Madness_Fountain</value>
+		</property>
+		<relationship name="folder">
+			<destination>{79f2f8ea-53ca-438d-bb23-8d1b77d14fbb}</destination>
+		</relationship>
+	</object>
+</objects>

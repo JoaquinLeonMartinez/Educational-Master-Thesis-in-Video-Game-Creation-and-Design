@@ -1,0 +1,172 @@
+[
+  {
+    "name" : "confirm",
+    "check" : "any",
+    "buttons" : ["gamepad_a", "return"]
+  },
+  {
+    "name" : "back",
+    "check" : "any",
+    "buttons" : ["gamepad_b", "back"]
+  },
+  {
+    "name" : "front_",
+    "check" : "any",
+    "buttons" : ["gamepad_lanalog_y", "w"]
+  },
+  {
+    "name" : "back_",
+    "check" : "any",
+    "buttons" : ["gamepad_lanalog_y", "s"]
+  },
+  {
+    "name" : "left_",
+    "check" : "any",
+    "buttons" : ["gamepad_lanalog_x", "a"]
+  },
+  {
+    "name" : "right_",
+    "check" : "any",
+    "buttons" : ["gamepad_lanalog_x", "d"]
+  },
+  {
+    "name" : "up_",
+    "check" : "any",
+    "buttons" : ["gamepad_ranalog_y", "g"]
+  },
+  {
+    "name" : "down_",
+    "check" : "any",
+    "buttons" : ["gamepad_ranalog_y", "h"]
+  },
+  {
+    "name" : "rleft_",
+    "check" : "any",
+    "buttons" : ["gamepad_ranalog_x", "y"]
+  },
+  {
+    "name" : "rright_",
+    "check" : "any",
+    "buttons" : ["gamepad_ranalog_x", "u"]
+  },
+  {
+    "name" : "aim_",
+    "check" : "any",
+    "buttons" : ["gamepad_ltrigger", "mouse_right"]
+  },
+  {
+    "name" : "shoot_",
+    "check" : "any",
+    "buttons" : ["gamepad_rtrigger", "mouse_left"]
+  },
+  {
+    "name" : "select_aim_",
+    "check" : "any",
+    "buttons" : ["gamepad_ltrigger", "mouse_right"]
+  },
+  {
+    "name" : "select_shoot_",
+    "check" : "any",
+    "buttons" : ["gamepad_rtrigger", "mouse_left"]
+  },
+  {
+    "name" : "dash_",
+    "check" : "any",
+    "buttons" : ["gamepad_b", "shift"]
+  },
+  {
+    "name" : "jump_",
+    "check" : "any",
+    "buttons" : ["gamepad_a", "space"]
+  },
+  {
+    "name" : "attack_",
+    "check" : "any",
+    "buttons" : ["gamepad_x", "f"]
+  },
+  {
+    "name" : "select_teleport_",
+    "check" : "any",
+    "buttons" : ["gamepad_dpad_up", "1"]
+  },
+  {
+    "name" : "select_battery_",
+    "check" : "any",
+    "buttons" : ["gamepad_dpad_down", "2"]
+  },
+  {
+    "name" : "checkpoint_",
+    "check" : "any",
+    "buttons" : ["t"]
+  },
+  {
+    "name" : "interact_",
+    "check" : "any",
+    "buttons" : ["gamepad_y", "e"]
+  },
+  {
+	"name" : "exitGame_",
+    "check" : "any",
+    "buttons" : ["escape"]
+  },
+  {
+    "name" : "godMode_",
+      "check" : "any",
+      "buttons" : ["gamepad_lthumb", "n"]
+  },
+  {
+    "name" : "flyMode_",
+      "check" : "any",
+      "buttons" : ["m"]
+  },
+  {
+    "name" : "coffee_time_",
+    "check" : "any",
+    "buttons" : ["gamepad_lbutton", "q"]
+  },
+  {
+    "name" : "fire_attack_",
+    "check" : "any",
+    "buttons" : ["gamepad_rbutton", "r"]
+  },
+  {
+    "name" : "block_invisible_cursor_",
+    "check" : "any",
+    "buttons" : ["control"]
+  },
+  {
+    "name" : "reset_camera_",
+    "check" : "any",
+    "buttons" : ["gamepad_rthumb"]
+  },
+  {
+    "name" : "pause",
+    "check" : "any",
+    "buttons" : ["gamepad_start", "p"]
+  },
+  {
+    "name" : "menu_next",
+    "check" : "any",
+    "buttons" : ["down","gamepad_dpad_down"]
+  },
+  {
+    "name" : "menu_prev",
+    "check" : "any",
+    "buttons" : ["up","gamepad_dpad_up"]
+  },
+  {
+    "name" : "menu_confirm",
+    "check" : "any",
+    "buttons" : ["return","gamepad_a"]
+  },
+  {
+    "name": "btMouseClickRight",
+    "check" : "any",
+    "buttons": [ "mouse_right" ]
+  },
+  {
+    "name": "btMouseClickLeft",
+     "check" : "any",
+    "buttons": [ "mouse_left" ]
+  }
+]

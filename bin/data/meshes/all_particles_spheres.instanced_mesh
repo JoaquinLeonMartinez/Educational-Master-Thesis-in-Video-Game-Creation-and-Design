@@ -1,0 +1,5 @@
+{
+  "instanced_mesh" : "data/meshes/UnitSphere.mesh",
+  "instances_type" : "ParticleRenderData",
+  "num_instances_reserved" : 256
+}

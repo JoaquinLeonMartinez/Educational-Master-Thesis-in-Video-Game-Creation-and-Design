@@ -1,0 +1,259 @@
+[  
+  {
+    "entity":
+    {
+      "name": "Mop"
+      ,
+      "transform":
+      {
+        "pos": "0 0 0"
+      }
+      ,
+      "render": {
+        "is_visible": true,
+        "color": "1.0 0.0 0.0 1.0",
+        "mesh": "data/meshes/weapons/Mop.mesh",
+        "materials": [
+          "data/materials/mop.material"
+        ]
+      },
+      "bone_tracker":{
+        "bone": "Bone_mopa",
+        "parent": "Player"
+      },
+      "comp_melee_trigger":{},
+      "collider":
+        {
+          "shape": "box"
+          ,
+          "half_size": "1.2 0.2 0.2"
+          ,
+          "offset":
+          {
+            "pos": "0.5 0.0 0.0"
+          }
+          ,
+          "trigger": true,
+          "dynamic": true,
+          "kinematic": true,
+          "group":"weapon",
+          "mask": "VulnerableToMelee"
+        },
+	   "tags" : ["weapon"]
+    }
+  },
+  {
+    "entity":
+    {
+      "name": "Energizer"
+      ,
+      "transform":
+      {
+        "pos": "0 0 0"
+      }
+      ,
+      "render":
+      {
+        "is_visible" : false,
+        "color": "1.0 0.0 0.0 1.0",
+        "mesh":"data/meshes/energizante_uvs/energizante_uvs_energizante.mesh",
+        "materials":
+        [
+          "data/materials/energizante_uvs/energizante_mat2.material"
+        ]
+      },
+      "bone_tracker":{
+        "bone": "Bone_weapon",
+        "parent": "Player"
+      },
+     "tags" : ["weapon"]
+    }
+  },
+  {
+    "entity":
+    {
+      "name": "Scanner"
+      ,
+      "transform":
+      {
+        "pos": "0 0 0"
+      }
+      ,
+      "render":
+      {
+        "is_visible" : false,
+        "color": "1.0 0.0 0.0 1.0",
+        "mesh":"data/meshes/weapons/scanner.mesh",
+        "materials":
+        [
+          "data/materials/scanner.material"
+        ]
+      },
+      "bone_tracker":{
+        "bone": "Bone_weapon",
+        "parent": "Player"
+      },
+     "tags" : ["weapon"]
+    }
+  },
+  {
+    "entity":
+    {
+      "name": "Pila"
+      ,
+      "transform":
+      {
+        "pos": "0 0 0",
+        "scale": 0.12
+      }
+      ,
+      "render":
+      {
+        "is_visible" : false,
+        "color": "1.0 0.0 0.0 1.0",
+        "mesh": "data/meshes/static_objects/Pila.mesh",
+        "materials":
+        [
+          "data/materials/pila_material2.material"
+        ]
+      },
+      "bone_tracker":{
+        "bone": "Bone_weapon",
+        "parent": "Player"
+      },
+     "tags" : ["weapon"]
+    }
+  },
+  {
+    "entity":
+    {
+      "name": "Anti_extintor"
+      ,
+      "transform":
+      {
+        "pos": "0 0 0",
+        "scale": 0.7
+      }
+      ,
+      "render":
+      {
+        "is_visible" : false,
+        "color": "1.0 0.0 0.0 1.0",
+        "mesh":"data/meshes/weapons/Anti_extintor.mesh",
+        "materials":
+        [
+          "data/materials/extintor2.material"
+        ]
+      },
+      "bone_tracker":{
+        "bone": "Bone_weapon",
+        "parent": "Player"
+      },
+     "tags" : ["weapon"]
+    }
+  },
+  {
+    "entity": {
+      "name": "AimCurve",
+      "transform": {
+        "pos": "0 0 0"
+      },
+      "parabolic_launch" : {
+        "velocity": 20.0
+      }
+    }
+  }
+  ,
+  {
+    "entity":
+    {
+      "name": "Fire Particles",
+      "transform": {
+        "pos": "0 1 0",
+        "rotation": "0.0 0.0 0.0 1.0"
+      }
+      ,
+      "render":
+      {
+        "mesh": "unit_quad_xy_centered.mesh",
+        "materials":
+        [
+          "data/materials/vfx/particles_fire.material"
+        ]
+      },
+      "fire_follow":{},
+      "buffers" : {
+        "instances" : {
+          "desc" : "Array of active particles at the start of the frame",
+          "bytes_per_elem" : 96,
+          "num_elems" : 1024
+        },
+        "instances_active" : {
+          "desc" : "Array of active particles after the update",
+          "bytes_per_elem" : 96,
+          "num_elems" : 1024
+        },
+        "system" : {
+          "desc" : "Stores dynamic information of this system: num particles alive/dead/time to next spawn/...",
+          "bytes_per_elem" : 16,
+          "num_elems" : 1
+        },
+        "indirect_draw" : {
+          "desc" : "Arguments of the draw instanced indirect. 5 x uint",
+          "bytes_per_elem" : 20,
+          "num_elems" : 1,
+          "is_indirect" : true,
+          "init_indirect_from_mesh" : "unit_quad_xy_centered.mesh"
+        },
+        "indirect_update" : {
+          "desc" : "Arguments of the dispachIndirect, so the CPU never knows how many particles are alive. 3 x uint",
+          "bytes_per_elem" : 12,
+          "num_elems" : 1,
+          "is_indirect" : true
+        },
+        "TCtesParticles" : {
+          "desc" : "Cte buffer to control emission parameters and update parameters",
+          "time_between_spawns" : 0.06,
+          "num_particles_per_spawn" : 8,
+          "center_radius" : 0.0,
+          "dir_aperture" : 0.12,
+          "speed" : "10.0 11.0",
+          "duration" : "0.75 0.95",
+          "emitter_dir" : "0 0 1",
+          "colors": [
+            [ 0.0, "1.0 0.0 0.0 1.0" ],
+            [ 0.2, "1.0 0.1 0.0 1.0" ],
+            [ 0.4, "1.0 0.4 0.0 1.0" ],
+            [ 0.6, "1.0 1.0 0.0 1.0" ],
+            [ 0.8, "0.0 0.0 0.0 0.8" ],
+            [ 1.0, "0.0 0.0 0.0 0.0" ]
+          ],
+          "sizes": [
+            [ 0.0, 0.1 ],
+            [ 1.0, 1.5 ]
+          ]
+        }
+      },
+      "compute" : [
+        {
+          "desc" : "Spawning just 1 thread",
+          "cs" : "cs_particles_fire_spawn.compute",
+          "sizes" : [1, 1, 1]
+        },
+        {
+          "desc" : "Updating as many thread groups as required & defined by the buffer indirect_update", 
+          "cs" : "cs_particles_fire_update.compute",
+          "sizes" : { 
+            "buffer": "indirect_update", 
+            "offset" : 0 
+          }
+        },
+        {
+          "swap_a" : "instances",
+          "swap_b" : "instances_active"
+        }
+      ],
+      "num_instances": "indirect_draw"
+    }
+  }
+]

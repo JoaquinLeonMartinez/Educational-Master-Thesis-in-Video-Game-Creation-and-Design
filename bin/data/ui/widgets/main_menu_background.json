@@ -1,0 +1,13 @@
+{
+	"name" : "main_menu_background",
+	"alias" :"main_menu_background_root",
+	"children" : 
+	[
+		{
+			"name" : "background",
+			"type" : "image",
+			"texture" : "data/ui/textures/newtextures/menu_principal.dds",
+			"size" : "1920 1080"
+		}
+	]
+}

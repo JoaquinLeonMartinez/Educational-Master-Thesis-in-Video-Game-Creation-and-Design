@@ -1,0 +1,14 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/horno/Horno_Base_Color.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+    ,
+    "metallic": "data/textures/horno/Horno_Metallic.dds"
+    ,
+    "roughness": "data/textures/horno/Horno_Roughness.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

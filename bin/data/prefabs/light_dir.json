@@ -1,0 +1,55 @@
+[
+  {
+    "entity": {
+      "transform": {
+        "pos": "0 23 0",
+        "pitch" : 90
+      },
+      "name": "DirLightShadow",
+      "light_dir": {
+        "near": 5,
+        "far": 80,
+        "fov": 45,
+        "color": "1 1 1 1",
+        "intensity": 5.0,
+        "offset": "50 0 50",
+        "projector": "data/textures/batman.dds",
+        "casts_shadows": true,
+        "shadows_resolution": 1024,
+        "shadows_fmt": "R32_TYPELESS",
+        "ortho" : false,
+        "ortho_width" : 64,
+        "ortho_height" : 64,
+        "ortho_centered" : true
+      },
+      "abs_aabb":{}
+    }
+  },
+  {
+    "entity": {
+      "transform": {
+        "pos": "50 13 -52",
+        "yaw" : -23,
+        "pitch" : -24
+      },
+      "name": "DirLight",
+      "light_dir": {
+        "near": 5,
+        "far": 80,
+        "fov": 45,
+        "color": "1 1 1 1",
+        "intensity": 5.0,
+        "offset": "50 0 50",
+        "projector": "data/textures/batman.dds",
+        "casts_shadows": false,
+        "shadows_resolution": 512,
+        "shadows_fmt": "R32_TYPELESS",
+        "ortho" : false,
+        "ortho_width" : 64,
+        "ortho_height" : 64,
+        "ortho_centered" : true
+      },
+      "abs_aabb":{}
+    }
+  }
+]

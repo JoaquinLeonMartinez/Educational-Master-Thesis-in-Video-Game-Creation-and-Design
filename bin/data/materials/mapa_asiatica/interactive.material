@@ -1,0 +1,12 @@
+{
+  "technique": "objs_morph.tech"
+  ,
+  "textures":
+  {
+    "albedo": "data/textures/mapa_asiatica/texturaHelado.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

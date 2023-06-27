@@ -1,0 +1,47 @@
+[  
+  {
+    "entity":
+    {
+      "name": "Teleport_box"
+      ,
+      "local_aabb" : {},
+      "abs_aabb" : {},
+      "transform":
+      {
+        "pos": "0 0 0",
+		    "scale": 0.4
+      }
+      ,
+      "collider":
+      {
+        "shapes":
+        [
+          {
+            "shape": "box"
+            ,
+            "half_size": "1.1 1.0 0.2"
+            ,
+            "offset":
+            {
+              "pos": "0.0 1.2 0.0"
+            }
+            ,
+            "group":"teleportable_obj"
+          }
+        ]
+        
+      }
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/prefabs/etiqueta_milestone03_Plane001.mesh"
+        ,
+        "materials":
+        [
+          "data/materials/etiqueta.material"
+         
+        ]
+      }
+    }
+  }
+ ]

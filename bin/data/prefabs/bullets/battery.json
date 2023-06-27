@@ -1,0 +1,59 @@
+[
+	{
+		"entity" : {
+			"transform" : {
+        		"pos": "0 1 1",
+        		"scale": 1.0
+			},		
+			"name" : "battery",
+			"render" : {
+       			 "mesh": "data/meshes/static_objects/Pila.mesh"
+				        ,
+       		 "materials":
+        		[
+         		  "data/materials/pila_material2.material"
+       			 ]
+			},
+			"local_aabb" : {},
+      		"abs_aabb" : {},
+			"collider":{
+				"shapes":
+        		[
+	        		{
+						"shape" : "box",
+						"half_size": "0.2 0.4 0.2",
+						 "offset":
+						{
+							"pos": "0.0 0.2 0.0"
+						}
+				    },
+		           {
+		            "shape": "box"
+		            ,
+		            "half_size": "3.0 3.0 3.0"
+		            ,
+		            "offset":
+		            {
+		              "pos": "0.0 0.5 0.0"
+		            }
+		            ,
+		            "trigger": true,
+		            "group":"battery",
+					"mask":"all"
+		          }
+				]
+				,
+				"dynamic": true,
+				"kinematic": false,
+				"density": 10,
+				"group":"bullet",
+			    "mask":"all"
+			},
+			"battery_controller" : {
+				"speed": 5
+			},
+			"tags" : ["battery"]
+		}
+	}
+]
+

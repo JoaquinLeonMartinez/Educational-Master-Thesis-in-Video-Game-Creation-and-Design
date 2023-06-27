@@ -1,0 +1,8 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/salsapicante_forsubstance_DefaultMaterial_BaseColor.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+  }
+}

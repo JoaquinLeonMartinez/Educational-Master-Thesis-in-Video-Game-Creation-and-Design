@@ -1,0 +1,34 @@
+[
+  {
+    "entity": {
+      "name": "Boom",
+      "transform": {
+        "pos": "0 1 0",
+        "scale": 1.0
+      },
+      "render": {
+        "mesh": "unit_quad_xy_centered.mesh",
+        "color": "0.0 0.5 1.0 1.0",
+        "materials":
+        [
+          "data/materials/vfx/boom.material"
+        ]
+      },
+      "comp_self_destroy" : {
+        "_isEnabled": true,
+        "_selfDestructDelay": 1.0
+      },
+      "boom_billboard":{},
+      "scalable":{
+        "final_scale": 5.0,
+        "time_to_scale": 0.2
+      },
+      "buffers" : {
+        "TCtesBoom" : {
+          "total_bytes" : 16,
+          "slot" : 13
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,15 @@
+[
+{
+    "entity":
+    {
+      "name": "enemies_in_tube_trap",
+      "transform":
+      {
+        "pos": "0 0 0"
+      },
+      "enemies_in_tube":{
+      },
+      "tags" : ["enemy", "scenario"]
+    }
+}
+]

@@ -1,0 +1,14 @@
+{
+  "asiatic_scene": {
+    "navmesh":"data/navmesh/navmesh_zona_asiatica.bin"
+  },
+  "tutorial_scene": {
+    "navmesh":"data/navmesh/navmesh_zona_tutorial_pasteleria.bin"
+  },
+  "carniceria_scene": {
+    "navmesh":"data/navmesh/navmesh_zona_carniceria.bin"
+  },
+   "congelados_scene": {
+    "navmesh":"data/navmesh/navmesh_zona_congelados.bin"
+  }	
+}

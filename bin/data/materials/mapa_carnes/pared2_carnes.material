@@ -1,0 +1,16 @@
+{
+  "technique": "objs_culled_by_gpu.tech"
+  ,
+  "textures":
+  {
+    "albedo": "data/textures/mapa_carnes/paredes_carnes_07 - Default_BaseColor.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+    ,
+    "metallic": "data/textures/black.dds"
+    ,
+    "roughness": "data/textures/white.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

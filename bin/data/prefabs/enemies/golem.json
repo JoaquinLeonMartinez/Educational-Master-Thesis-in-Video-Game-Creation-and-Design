@@ -1,0 +1,31 @@
+[
+	{
+		"entity" : {
+			"transform" : {
+				"pos" : "15 0 0",
+				"scale" : 1.5
+			},		
+			"name" : "Golem",
+			"render" : {
+				
+			},
+			"local_aabb" : {},
+      		"abs_aabb" : {},
+			"bt_golem": {
+			},
+			"collider" : {
+			    "shape": "capsule",
+			    "controller": true,
+			    "radius": 2.5,
+			    "height": 2.8,
+			    "group":"enemy",
+			    "mask":"all"
+			},
+			"comp_checkpoint_register":{
+			  "prefab": "data/prefabs/enemies/golem.json",
+			  "entityTypeString": "GOLEM"
+			},
+			"tags" : ["enemy"]
+		}
+	}
+]

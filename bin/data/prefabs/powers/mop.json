@@ -1,0 +1,22 @@
+[
+	{
+		"entity" : {
+			"transform" : {
+        		"pos": "0 0 1"
+			},		
+			"name" : "mop",
+			"render" : {
+				"color" : "1 1 0 1"
+			},
+			"collider":{
+				"shape": "box",
+				"half_size": "0.1 0.1 0.1",
+				"density": 100,
+				"dynamic": true
+			},
+			"mop_controller" : {
+				
+			}
+		}
+	}
+]

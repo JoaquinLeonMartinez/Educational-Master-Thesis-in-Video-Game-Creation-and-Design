@@ -1,0 +1,45 @@
+[
+	{
+    "entity" : {
+      "transform" : {
+        "pos" : "0 0 0",
+        "scale": 3
+    }, 
+      "render":
+      {
+        "mesh": "data/meshes/energizante_uvs/energizante_uvs_energizante.mesh"
+        ,
+        "color": "0.345098 0.694118 0.105882 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/energizante_uvs/energizante_mat.material"
+        ]
+      },
+    "abs_aabb" : {},
+    "collider":
+    {
+        "shapes":
+        [
+          {
+            "shape": "box"
+            ,
+            "half_size": "1.0 1.0 1.0"
+            ,
+            "offset":
+            {
+              "pos": "0.0 0.0 0.0"
+            }
+            ,
+            "trigger": true,
+            "group":"trigger"
+          }
+        ]
+      },
+			"comp_increase_power" : {
+          "type" : "coffee"
+			}
+		}
+	}
+]
+

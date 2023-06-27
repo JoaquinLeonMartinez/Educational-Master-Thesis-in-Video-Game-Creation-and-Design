@@ -1,0 +1,25 @@
+{
+	"name" : "mision9_screen",
+	"alias" :"mision9_screen_root",
+	"children" : 
+	[
+		{
+			"name" : "screen_mision9",
+			"type" : "widget",
+			"size" : "925 188",
+			"position" : "1000 80",
+			"scale" : "0.75 0.75",
+			"children" :
+			[
+				{
+					"name" : "background_screen_mision9",
+					"type" : "image",
+					"size" : "925 188",
+					"texture" : "data/ui/textures/ui_missions/mision9.dds"
+				}
+				
+				
+			]
+		}
+	]
+}

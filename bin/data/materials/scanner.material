@@ -1,0 +1,6 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/Scanner_Milestone2_DefaultMaterial_BaseColor.dds"
+  }
+}

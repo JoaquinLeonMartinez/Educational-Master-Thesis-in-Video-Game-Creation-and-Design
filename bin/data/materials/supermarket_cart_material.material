@@ -1,0 +1,14 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/cart_diffuse.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+    ,
+    "metallic": "data/textures/cart_metallic.dds"
+    ,
+    "roughness": "data/textures/cart_roughness.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

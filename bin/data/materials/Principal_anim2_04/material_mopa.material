@@ -1,0 +1,10 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/Principal_anim2_04/mopa_Base_Color.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

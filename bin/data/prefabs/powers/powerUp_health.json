@@ -1,0 +1,41 @@
+[
+	{
+    "entity" : {
+      "transform" : {
+        "pos" : "0 0 0"
+    }, 
+    "name": "health_powerup",
+    "render" : {
+      "mesh": "data/meshes/prefabs/pizza_powerup.mesh",
+        "materials":
+        [
+          "data/materials/pizza.material"
+        ]
+      },
+    "abs_aabb" : {},
+    "collider":
+    {
+        "shapes":
+        [
+          {
+            "shape": "box"
+            ,
+            "half_size": "1.0 1.0 1.0"
+            ,
+            "offset":
+            {
+              "pos": "0.0 0.5 0.0"
+            }
+            ,
+            "trigger": true,
+            "group":"scenario"
+          }
+        ]
+      },
+			"comp_increase_power" : {
+          "type" : "health"
+			}
+		}
+	}
+]
+

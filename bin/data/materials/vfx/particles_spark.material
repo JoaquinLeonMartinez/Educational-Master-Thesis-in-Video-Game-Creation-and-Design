@@ -1,0 +1,8 @@
+{
+  "technique" : "particles_spark_num_instances.tech",
+  "casts_shadows" : false,
+  "category" : "shine",
+  "textures": {
+    "albedo": "data/textures/particles/glow.dds"
+  }
+}

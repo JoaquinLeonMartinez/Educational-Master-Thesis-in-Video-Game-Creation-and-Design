@@ -1,0 +1,99 @@
+[
+{
+    "entity":
+    {
+      "name": "ExplosionSoja",
+      "transform": {
+        "pos": "0 0 0",
+        "rotation": "0.0 0.0 0.0 1.0"
+      }
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/static_objects/UnitSphere.mesh",
+        "materials":
+        [
+          "data/materials/vfx/particles_soja.material"
+        ]
+      },
+      "comp_self_destroy" : {
+        "_isEnabled": true,
+        "_selfDestructDelay": 3.5
+      },
+      "comp_slow_disappear":{
+        "_stopSpawning" : 0.2,
+        "_isEnabled" : true
+      },
+      "buffers" : {
+        "instances" : {
+          "desc" : "Array of active particles at the start of the frame",
+          "bytes_per_elem" : 96,
+          "num_elems" : 2048
+        },
+        "instances_active" : {
+          "desc" : "Array of active particles after the update",
+          "bytes_per_elem" : 96,
+          "num_elems" : 2048
+        },
+        "system" : {
+          "desc" : "Stores dynamic information of this system: num particles alive/dead/time to next spawn/...",
+          "bytes_per_elem" : 16,
+          "num_elems" : 1
+        },
+        "indirect_draw" : {
+          "desc" : "Arguments of the draw instanced indirect. 5 x uint",
+          "bytes_per_elem" : 20,
+          "num_elems" : 1,
+          "is_indirect" : true,
+          "init_indirect_from_mesh" : "data/meshes/static_objects/UnitSphere.mesh"
+        },
+        "indirect_update" : {
+          "desc" : "Arguments of the dispachIndirect, so the CPU never knows how many particles are alive. 3 x uint",
+          "bytes_per_elem" : 12,
+          "num_elems" : 1,
+          "is_indirect" : true
+        },
+        "TCtesParticles" : {
+          "desc" : "Cte buffer to control emission parameters and update parameters",
+          "time_between_spawns" : 0.06,
+          "num_particles_per_spawn" : 200,
+          "center_radius" : 0.0,
+          "dir_aperture" : 1.5,
+          "speed" : "3.0 5.0",
+          "duration" : "2.0 3.0",
+          "emitter_dir" : "0 0 1",
+          "colors": [
+            [ 0.0, "0.45 0.13 0.49 1.0" ],
+            [ 1.0, "0.45 0.13 0.49 1.0" ]
+          ],
+          "sizes": [
+            [ 0.0, 0.0 ],
+            [ 0.2, 0.05 ],
+            [ 0.7, 0.1 ],
+            [ 1.0, 0.2 ]
+          ]
+        }
+      },
+      "compute" : [
+        {
+          "desc" : "Spawning just 1 thread",
+          "cs" : "cs_particles_soja_explosion_spawn.compute",
+          "sizes" : [1, 1, 1]
+        },
+        {
+          "desc" : "Updating as many thread groups as required & defined by the buffer indirect_update", 
+          "cs" : "cs_particles_soja_update.compute",
+          "sizes" : { 
+            "buffer": "indirect_update", 
+            "offset" : 0 
+          }
+        },
+        {
+          "swap_a" : "instances",
+          "swap_b" : "instances_active"
+        }
+      ],
+      "num_instances": "indirect_draw"
+    }
+}
+]

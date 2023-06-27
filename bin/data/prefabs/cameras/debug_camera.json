@@ -1,0 +1,14 @@
+[
+	{
+		"entity": {
+			"transform": {
+				"pos" : "35 35 35",
+				"lookat" : "0 0 0"
+			},
+			"name": "DebugCamera",
+			"culling" : {},
+			"camera": {},
+			"camera_flyover": {}
+		}
+	}
+]

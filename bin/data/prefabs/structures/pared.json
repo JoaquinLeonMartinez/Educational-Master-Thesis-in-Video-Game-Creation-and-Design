@@ -1,0 +1,38 @@
+[
+  {
+    "entity":
+    {
+      "name": "Pared1"
+      ,
+      "local_aabb" : {},
+      "abs_aabb" : {},
+      "transform":
+      {
+        "pos": "15 0 0"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "collider":
+      {
+        "shape": "box"
+        ,
+        "half_size": "1.5 20 15"
+        ,
+        "density": 100
+		,
+		"group":"scenario"
+		,
+		"mask":"bullet"
+      }
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/pared1.mesh"
+        ,
+        "color": "0 1 0.0313726 1.0"
+      },
+	  "tags" : ["wall"]
+    }
+  }
+]

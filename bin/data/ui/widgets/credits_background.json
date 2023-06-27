@@ -1,0 +1,15 @@
+{
+	"name" : "credits_background",
+	"alias" :"credits_background_root",
+	"type" : "widget",
+	"size" : "1920 1080",
+	"children" : 
+	[
+		{
+			"name" : "background_credits",
+			"type" : "image",
+			"size" : "1920 1080",
+			"texture" : "data/ui/textures/market/screen_black.dds"
+		}
+	]
+}

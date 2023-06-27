@@ -1,0 +1,27 @@
+[
+  {
+    "entity":
+    {
+      "name": "infinite_plane"
+      ,
+      "transform":
+      {
+        "pos": "0.55566 0.0 -1.41161"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/infinitePlane_infinite_plane.mesh"
+        ,
+        "color": "0.894118 0.6 0.721569 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/planeTex.material"
+        ]
+      }
+    }
+  }
+]

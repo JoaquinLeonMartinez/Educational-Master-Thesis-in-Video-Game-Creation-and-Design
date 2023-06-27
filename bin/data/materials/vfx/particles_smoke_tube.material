@@ -1,0 +1,10 @@
+{
+  "technique" : "particles_smoke_tube_instances.tech",
+  "casts_shadows" : false,
+  "category" : "transparent",
+  "textures":
+  {
+    "albedo": "data/textures/vfx/smokeffect.dds",
+    "normal": "data/textures/vfx/voronoi2.dds"
+  }
+}

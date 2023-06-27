@@ -1,0 +1,24 @@
+{
+	"name" : "dead_menu_background",
+	"alias" :"dead_menu_background_root",
+	"children" : 
+	[
+		{
+			"name" : "dead_menu_background",
+			"type" : "widget",
+			
+			"size" : "620 380",
+			"children" :
+			[
+				{
+					"name" : "dead_menu_background_image",
+					"type" : "image",
+					"texture" : "data/ui/textures/newtextures/gameover.dds",
+					"size" : "620 280",
+					"position" : "340 200",
+					"maxUV" : "1.0 1.0"
+				}
+			]
+		}
+	]
+}

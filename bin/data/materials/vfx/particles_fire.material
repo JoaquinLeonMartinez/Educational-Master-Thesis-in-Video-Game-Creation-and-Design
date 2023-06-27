@@ -1,0 +1,11 @@
+{
+  "technique" : "particles_fire_num_instances.tech",
+  "casts_shadows" : false,
+  "category" : "shine",
+  "textures": {
+    "albedo": "data/textures/particles/glow.dds",
+    "normal" : "data/textures/vfx/T_Random_44.dds",
+    "metallic": "data/textures/vfx/T_Random_19.dds",
+    "roughness": "data/textures/vfx/noise_cloud2.dds"
+  }
+}

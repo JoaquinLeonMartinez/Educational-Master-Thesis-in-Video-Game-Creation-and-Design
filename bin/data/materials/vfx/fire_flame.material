@@ -1,0 +1,11 @@
+{
+  "technique" : "fire_flame.tech",
+  "casts_shadows" : false,
+  "category" : "distorsions",
+  "textures":
+  {
+    "albedo": "data/textures/vfx/flamefiremask.dds",
+    "normal" : "data/textures/vfx/T_Random_44.dds",
+    "roughness": "data/textures/vfx/noise_cloud2.dds"
+  }
+}

@@ -1,0 +1,69 @@
+[
+	{
+		"entity" : {
+			"transform" : {
+				"pos" : "-64 0 -61"
+			},		
+			"name" : "Sushi715",
+			"render" : {
+				"mesh": "data/meshes/Teapot001.mesh",
+				"color": "0.8 0.8 0.8 1.0"
+		        
+			},
+			"ai_anav": {
+				"nWaypoints": 3,
+
+				"halfCone": 45.0,
+				"hearingRadius": 10.0,
+				"combatViewDistance": 50.0,
+				"viewDistance": 30.0,
+
+				"life": 150,
+				"patrolSpeed": 1.0,
+				"chaseSpeed": 4.5,
+				"rotationSpeed": 0.5,
+				"damageStunDuration": 0.3,
+				"damageStunBackwardsSpeed": 2.5,
+				"distanceCheckThreshold": 0.7,
+
+				"meleeComboProbability": 33.0,
+				"melee1Damage": 10.0,
+				"melee2Damage": 10.0,
+				"melee3Damage": 20.0,
+				"meleeDistance": 1.5,
+				"meleeDelay": 1.7,
+
+				"chargeProbability": 15,
+				"chargeSpeed": 23.0,
+				"chargeDamage": 20.0,
+				"chargeDelay": 2.0,
+				"chargeDuration": 1,
+
+				"jumpChargeProbability": 10,
+				"jumpSpeed": 3.5,
+				"jumpHeight": 4.0,
+				"jumpChargeSpeed": 6.0,
+				"jumpChargeDamage": 20.0,
+
+				"saluteProbability": 20,
+				"saluteDuration": 2.0,
+
+				"blockProbability": 15,
+				"blockDuration": 3.0,
+
+				"orbitProbability": 33,
+				"orbitSpeed": 1.0
+			},
+			"life": 100.0,
+			"collider" : {
+				"shape": "capsule",
+			    "controller": true,
+			    "radius": 0.5,
+			    "height": 0.8,
+			    "group":"enemy",
+			    "mask":"all"
+			},
+			"tags" : ["enemy"]
+		}
+	}
+]

@@ -1,0 +1,18 @@
+{
+  "technique": "objs_skin.tech"
+  ,
+  "shadows": true
+  ,
+  "textures":
+  {
+    "albedo": "data/textures/entrega_final2/HORNO_Base_Color.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+    ,
+    "metallic": "data/textures/black.dds"
+    ,
+    "roughness": "data/textures/entrega_final2/HORNO_Roughness.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "technique" : "fire_aux.tech",
+  "casts_shadows" : false,
+  "category" : "distorsions",
+  "textures":
+  {
+    "albedo": "data/textures/vfx/toonfire1.dds",
+    "normal": "data/textures/vfx/wind_noise.dds",
+    "metallic": "data/textures/vfx/spheres.dds",
+    "roughness": "data/textures/white.dds",
+    "emissive": "data/textures/black.dds"
+  }
+}

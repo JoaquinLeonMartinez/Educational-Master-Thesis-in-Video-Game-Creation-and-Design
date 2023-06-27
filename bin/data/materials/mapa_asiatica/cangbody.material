@@ -1,0 +1,10 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/mapa_asiatica/letrero_cangrejo_forsp_body_BaseColor.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

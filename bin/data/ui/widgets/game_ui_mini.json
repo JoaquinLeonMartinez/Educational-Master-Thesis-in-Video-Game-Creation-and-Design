@@ -1,0 +1,296 @@
+{
+	"name" : "game_ui",
+	"alias" :"game_ui_root",
+	"children" : 
+	[
+	
+		{
+			"name" : "life_character_framework",
+			"scale" : "0.5 0.5",
+			"position" : "5 5",
+			"children" : 
+			[
+				{
+					"name" : "life_character_framework_",
+					"type" : "image",
+					"texture" : "data/ui/textures/newtextures/UI_etiquetablanca.dds",
+					"size" : "639 285",
+					"maxUV" : "1.0 1.0",
+					"color" : "255 255 255 230"
+
+				}
+			]
+		},
+		{
+			"name" : "life_character",
+			"position" : "75 30",
+			"scale" : "0.5 0.5",
+			"children" : 
+			[
+				{
+					"name" : "life_empty",
+					"type" : "image",
+					"texture" : "data/ui/textures/newtextures/UI_barravida_contenedor.dds",
+					"size" : "484 95",
+					"maxUV" : "1.0 1.0"
+
+				},
+				{
+					"name" : "life_full",
+					"type" : "bar",
+					"alias" : "life_bar_r",
+					"texture" : "data/ui/textures/newtextures/UI_barravida_relleno.dds",
+					"size" : "390 39",
+					"position" : "80 35",
+					"maxUV" : "1.0 1.0",
+					"var" : "life_character"
+				}
+			]
+		},
+		{
+			"name" : "mana_character",
+			"position" : "75 80",
+			"scale" : "0.5 0.5",
+			"children" : 
+			[
+				{
+					"name" : "mana_empty",
+					"type" : "bar",
+					"texture" : "data/ui/textures/newtextures/UI_barralejia_contenedor.dds",
+					"size" : "476 90",
+					"maxUV" : "1.0 1.0"
+
+				},
+				{
+					"name" : "mana_full",
+					"type" : "bar",
+					"alias" : "mana_bar_r",
+					"texture" : "data/ui/textures/newtextures/UI_barralejia_relleno.dds",
+					"size" : "390 40",
+					"position" : "73 25",
+					"maxUV" : "1.0 1.0",
+					"var" : "mana_character"
+				}
+			]
+		}
+		,
+		{
+			"name" : "botonera_acciones_simples",
+			"position" : "1050 450",
+			"scale" : "0.5 0.5",
+			"children" :
+			[
+				{
+					"name" : "bt_carro",
+					"alias" : "bt_carro_",
+					"position" : "55 0",
+					"type" : "button",
+					"texture" : "data/ui/textures/newtextures/y_boton.dds",
+					"size" : "149 131",
+					
+					"states" : [
+						{
+							"name" : "enabled",
+							"color" : "255 255 255 255"
+						},
+						{
+							"name" : "selected",
+							"color" : "255 255 255 128"
+						}
+					]
+				},
+				{
+					"name" : "bt_dash",
+					"alias" : "bt_dash_",
+					"position" : "180 105",
+					"type" : "button",
+					"texture" : "data/ui/textures/newtextures/b_botondash.dds",
+					"size" : "246 87",
+					
+					"states" : [
+						{
+							"name" : "enabled",
+							"color" : "255 255 255 255"
+						},
+						{
+							"name" : "selected",
+							"color" : "255 255 255 128"
+						}
+					]
+				},
+				{
+					"name" : "bt_jump",
+					"alias" : "bt_jump_",
+					"position" : "115 172",
+					"type" : "button",
+					"texture" : "data/ui/textures/newtextures/a_botonjump.dds",
+					
+					"size" : "230 107",
+					
+					"states" : [
+						{
+							"name" : "enabled",
+							"color" : "255 255 255 255"
+						},
+						{
+							"name" : "selected",
+							"color" : "255 255 255 128"
+						}
+					]
+				},
+				{
+					"name" : "bt_mop",
+					"alias" : "bt_mop_",
+					"position" : "0 85",
+					"type" : "button",
+					"texture" : "data/ui/textures/newtextures/x_botonmopa.dds",
+					
+					"size" : "139 157",
+					
+					"states" : [
+						{
+							"name" : "enabled",
+							"color" : "255 255 255 255"
+						},
+						{
+							"name" : "selected",
+							"color" : "255 255 255 128"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "botonera_acciones_disparos",
+			"position" : "1200 300",
+			"scale" : "0.5 0.5",
+			"children" :
+			[
+				{
+					"name" : "bt_l1",
+					"alias" : "bt_l1_",
+					"position" : "0 0",
+					"type" : "button",
+					"texture" : "data/ui/textures/newtextures/lb_boton.dds",
+					"size" : "148 165",
+					
+					"states" : [
+						{
+							"name" : "enabled",
+							"color" : "255 255 255 255"
+						},
+						{
+							"name" : "selected",
+							"color" : "255 255 255 128"
+						}
+					]
+				},
+				{
+					"name" : "bt_r1",
+					"alias" : "bt_r1_",
+					"position" : "0 170",
+					"type" : "button",
+					"texture" : "data/ui/textures/newtextures/rb_boton.dds",
+					
+					"size" : "139 148",
+					
+					"states" : [
+						{
+							"name" : "enabled",
+							"color" : "255 255 255 255"
+						},
+						{
+							"name" : "selected",
+							"color" : "255 255 255 128"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "botonera_seleccion",
+			"scale" : "0.5 0.5",
+			"position" : "15 25",
+			"children" :
+			[
+				
+				
+				{
+					"name" : "card",
+					"alias" : "card_",
+					"position" : "0 0",
+					"type" : "button",
+					"texture" : "data/ui/textures/newtextures/UI_scanner.dds",
+					"size" : "131 163",
+					"states" : [
+						{
+							"name" : "option_battery",
+							"texture" : "data/ui/textures/newtextures/UI_pila.dds"
+						},
+						{
+							"name" : "option_teleport",
+							"texture" : "data/ui/textures/newtextures/UI_scanner.dds"
+						}
+						,
+						{
+							"name" : "no_battery",
+							"texture" : "data/ui/textures/market/no_card.dds"
+						},
+						{
+							"name" : "no_teleport",
+							"texture" : "data/ui/textures/market/no_card.dds"
+						}
+						,
+						{
+							"name" : "enabled",
+							"color" : "255 255 255 255"
+						},
+						{
+							"name" : "selected",
+							"color" : "255 255 255 128"
+						}
+						
+						
+					]
+					
+				},
+				{
+					"name" : "cursor",
+					"alias" : "cursor_",
+					"position" : "20 160",
+					"type" : "button",
+					"texture" : "data/ui/textures/market/cursor_izq.dds",
+					"size" : "70 66",
+					
+					"states" : [
+						{
+							"name" : "nothing",
+							"texture" : "data/ui/textures/market/cursor.dds"
+						},
+						{
+							"name" : "option_battery",
+							"texture" : "data/ui/textures/market/cursor_der.dds"
+						},
+						{
+							"name" : "option_teleport",
+							"texture" : "data/ui/textures/market/cursor_izq.dds"
+						}
+					]
+				}
+			]
+		}
+		,
+		{
+			"name" : "reticula",
+			"type" : "image",
+			"alias" : "reticula_",
+			"texture" : "data/ui/textures/newtextures/UI_mirilla.dds",
+			"maxUV" : "1.0 1.0",
+			"position" : "640 320",
+			"size" : "56 31"
+
+		}
+		
+		
+	]
+}

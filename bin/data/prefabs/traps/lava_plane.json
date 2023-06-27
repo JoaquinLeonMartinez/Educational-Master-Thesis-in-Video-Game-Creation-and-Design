@@ -1,0 +1,39 @@
+[
+  {
+    "entity" : {
+      "transform" : {
+        "pos" : "12 0 0"
+    },    
+    "abs_aabb" : {},
+     "id": 15
+      ,
+      "name": "DamageTrigger",
+    "collider":
+    {
+        "shapes":
+        [
+          {
+            "shape": "box"
+            ,
+            "half_size":  "10.0 10.0 4.0"
+            ,
+            "offset":
+            {
+              "pos": "0.0 9.85992 0.0"
+            }
+            ,
+            "trigger": true,
+            "group":"trigger"
+          }
+        ],
+        "mask":"player"
+      },
+    "trigger_damage_zone" :{
+      "damage" : 100,
+      "damageInterval" : 0.1,
+      "active" : false
+    },
+      "tags": ["floor"]
+    }
+  }
+]

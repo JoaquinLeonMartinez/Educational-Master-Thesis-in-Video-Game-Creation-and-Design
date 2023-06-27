@@ -1,0 +1,51 @@
+{
+  "scenes_to_load": [
+    "data/prefabs/cameras/main_camera.json",
+    "data/prefabs/cameras/debug_camera.json",
+    "data/prefabs/powers/inventory.json",
+    "data/scenes/test_blood.json",
+    "data/particles/onomatopoeia.json",
+    "data/scenes/skybox.json",
+    "data/prefabs/character/dummy_weapon.json",
+    "data/prefabs/character/dummy_carrito.json",
+      "data/scenes/mapa_congelados.json",
+  ],
+  "prefabs_to_prefaload" : [
+    "data/prefabs/enemies/bt_sushi.json",
+    "data/prefabs/enemies/bt_cupcake.json",
+    "data/prefabs/enemies/bt_golem.json",
+    "data/prefabs/props/fake_player_mounted.json",
+    "data/prefabs/enemies/bt_ranged_sushi.json",
+    "data/prefabs/vfx/air.json"
+  ],
+  "scenes_not_to_load": [
+    "data/scenes/mapa_congelados.json",
+    "data/scenes/mapa_asiatica.json",
+    "data/scenes/mapa_carnes.json",
+    "data/prefabs/infinite_plane.json",
+    "data/prefabs/character/player.json"
+  ],
+  "scene_carniceria": [
+    "data/scenes/mapa_carnes.json",
+    "data/particles/hot_particles.json",
+    "data/particles/platform_fire_particles.json",
+    "data/particles/outside_fire1.json",
+    "data/particles/outside_fire2.json"
+  ],
+  "scene_congelados": [
+    "data/scenes/mapa_congelados.json",
+    "data/particles/cold_particles.json",
+    "data/particles/smoke_cold_particles.json",
+    "data/particles/smoke_cold_particles2.json",
+    "data/particles/smoke_cold_particles3.json",
+    "data/particles/smoke_cold_particles4.json",
+    "data/particles/smoke_cold_particles5.json",
+    "data/particles/smoke_cold_particles6.json"
+  ],
+  "particles": [
+    "data/particles/cold_particles.json",
+    "data/particles/smoke_cold_particles.json",
+    "data/particles/fire_particles.json",
+    "data/particles/hot_particles.json"
+  ]
+}

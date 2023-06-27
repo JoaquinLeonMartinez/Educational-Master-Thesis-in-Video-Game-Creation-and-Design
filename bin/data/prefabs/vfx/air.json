@@ -1,0 +1,30 @@
+[
+  {
+    "entity": {
+      "name": "Air",
+      "transform": {
+        "pos": "0 0 0"
+      },
+      "render": {
+        "mesh": "data/meshes/static_objects/air_spiral.mesh",
+        "color": "0.36 0.36 0.36 1.0",
+        "materials":
+        [
+          "data/materials/vfx/wind.material"
+        ]
+      },
+      "air":{},
+      "buffers" : {
+        "TCtesAir" : {
+          "total_bytes" : 16,
+          "slot" : 13
+        }
+      },
+      "comp_self_destroy" : {
+        "_isEnabled": false
+      },
+      "local_aabb":{},
+      "abs_aabb":{}
+    }
+  }
+]

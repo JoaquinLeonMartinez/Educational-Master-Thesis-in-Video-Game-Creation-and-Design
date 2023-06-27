@@ -1,0 +1,8 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/textura_etiqueta.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+  }
+}

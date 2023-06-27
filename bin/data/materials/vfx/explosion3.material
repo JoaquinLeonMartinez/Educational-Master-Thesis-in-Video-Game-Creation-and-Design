@@ -1,0 +1,9 @@
+{
+  "technique" : "explosion3.tech",
+  "casts_shadows" : false,
+  "category" : "distorsions",
+  "textures":
+  {
+    "albedo": "data/textures/vfx/wind_noise.dds"
+  }
+}

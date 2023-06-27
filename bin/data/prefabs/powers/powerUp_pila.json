@@ -1,0 +1,44 @@
+[
+	{
+    "entity" : {
+      "transform" : {
+        "pos" : "0 0 0"
+    }, 
+      "render":
+      {
+        "mesh": "data/meshes/static_objects/Pila.mesh"
+        ,
+        "color": "0.345098 0.694118 0.105882 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/pila_material.material"
+        ]
+      },
+    "abs_aabb" : {},
+    "collider":
+    {
+        "shapes":
+        [
+          {
+            "shape": "box"
+            ,
+            "half_size": "1.0 1.0 1.0"
+            ,
+            "offset":
+            {
+              "pos": "0.0 0.0 0.0"
+            }
+            ,
+            "trigger": true,
+            "group":"scenario"
+          }
+        ]
+      },
+			"comp_increase_power" : {
+            "type" : "battery"
+			}
+		}
+	}
+]
+

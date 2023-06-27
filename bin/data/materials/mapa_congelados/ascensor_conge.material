@@ -1,0 +1,14 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/mapa_congelados/suelo_ascensor_Base_Color.dds"
+    ,
+    "normal": "data/textures/mapa_congelados/suelo_ascensor_Normal_DirectX.dds"
+    ,
+    "metallic": "data/textures/mapa_congelados/suelo_ascensor_Metallic.dds"
+    ,
+    "roughness": "data/textures/mapa_congelados/suelo_ascensor_Roughness.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

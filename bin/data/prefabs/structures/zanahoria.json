@@ -1,0 +1,51 @@
+[
+{
+    "entity":
+    {
+      "name": "zanahoria"
+      ,
+      "transform":
+      {
+        "pos": "0 0 20"
+        ,
+        "rotation": "-0.596368 0.596368 0.379928 -0.379928"
+      }
+      
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/mapa_zona_asiatica3/mapa_zona_asiatica3_zanahoria.mesh"
+        ,
+        "color": "0.898039 0.603922 0.843137 1.0"
+        
+
+      }
+	  ,
+      "collider":
+      {
+        "shapes":
+        [
+          {
+            "shape": "convex"
+            ,
+            "collision_mesh": "data/meshes/mapa_zona_asiatica04_Box009.col_mesh"
+          }
+        ],
+		"dynamic" : true,
+  		"kinematic": true,
+		"platform" : true,
+  		"group":"scenario",
+  		"mask":"player"
+      },
+	  "ai_platform_mobile": {
+			
+			"mRotationSpeed_" : 5,
+			"mRotationTime_" : 5,
+			"platformType_" : 3,
+			"direction" :  0,
+			"axis" : "0 1 0",
+			"angleTurn_":90
+		}
+    }
+  }
+  ]

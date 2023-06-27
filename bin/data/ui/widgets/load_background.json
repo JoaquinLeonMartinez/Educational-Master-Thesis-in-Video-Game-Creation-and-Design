@@ -1,0 +1,21 @@
+{
+	"name" : "load_background",
+	"alias" :"load_background_root",
+	"children" : 
+	[
+		{
+			"name" : "load_screen",
+			"type" : "widget",
+			"size" : "1920 1080",
+			"children" : 
+			[
+				{
+					"name" : "background_load_Screen",
+					"type" : "image",
+					"size" : "1920 1080",
+					"texture" : "data/ui/textures/newtextures/pantalla_carga.dds"
+				}
+			]
+		}
+	]
+}

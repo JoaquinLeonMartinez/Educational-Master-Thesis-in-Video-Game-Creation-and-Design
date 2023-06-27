@@ -1,0 +1,12 @@
+{
+  "technique": "objs_skin.tech"
+  ,
+  "shadows": true
+  ,
+  "textures":
+  {
+    "albedo": "data/textures/sushi_Base_Color.dds"
+    ,
+    "normal": "data/textures/sushi_Normal_DirectX.dds"
+  }
+}

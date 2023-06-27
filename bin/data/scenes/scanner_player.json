@@ -1,0 +1,27 @@
+[
+  {
+    "entity":
+    {
+      "name": "Scanner"
+      ,
+      "transform":
+      {
+        "pos": "-0.357939 0.929661 -0.0781119"
+        ,
+        "rotation": "-0.0561499 -0.95305 -0.220517 -0.19979"
+      }
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/scanner_player/scanner_player_Scanner.mesh"
+        ,
+        "color": "0.345098 0.694118 0.105882 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/scanner_player/material_scanner.material"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,27 @@
+[
+
+  {
+    "entity":
+    {
+      "name": "Skybox"
+      ,
+      "transform":
+      {
+        "pos": "0 0 -100",
+        "scale": 1.0,
+        "yaw":  42.5
+      }
+      ,
+      "render":
+      {
+        "color" : "0.392 0.847 1 1",
+        "mesh": "data/meshes/static_objects/skybox.mesh"
+        ,
+        "materials":
+        [
+          "data/materials/skybox.material"
+        ]
+      }
+    }
+  }
+]

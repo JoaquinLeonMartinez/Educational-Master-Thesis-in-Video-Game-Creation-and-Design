@@ -1,0 +1,30 @@
+[
+	{
+		"entity" : {
+			"render":
+			{
+				"mesh": "data/meshes/guindilla.mesh"
+			}
+			,
+			"transform" : {
+        		"pos": "0 1 1"
+        		
+			},		
+			"name" : "grenade",
+			"collider":{
+				"shape" : "sphere",
+				"radius": 0.2,
+				"dynamic": true,
+				"density": 20.0,
+				"group": "Grenade",
+				"mask":"NotPlayer"
+
+			},
+			"grenade_controller" : {
+				"speed": 5
+			},
+			"tags" : ["grenade"]
+		}
+	}
+]
+

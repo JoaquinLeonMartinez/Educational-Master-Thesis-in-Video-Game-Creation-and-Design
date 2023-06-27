@@ -1,0 +1,1813 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="mcv_platform.cpp" />
+    <ClCompile Include="windows\main.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="windows\app.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="render\shaders\compile.cpp">
+      <Filter>render\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="render\shaders\shader.cpp">
+      <Filter>render\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="render\meshes\mesh.cpp">
+      <Filter>render\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="render\meshes\vertex_declarations.cpp">
+      <Filter>render\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry\camera.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry\SimpleMath.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="render\primitives.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\module_manager.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\test\module_gameplay.cpp">
+      <Filter>modules\test</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\test\module_main_menu.cpp">
+      <Filter>modules\test</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\test\module_splash.cpp">
+      <Filter>modules\test</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp" />
+    <ClCompile Include="utils\utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="render\meshes\mesh_io.cpp">
+      <Filter>render\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\test\module_sample_objs.cpp">
+      <Filter>modules\test</Filter>
+    </ClCompile>
+    <ClCompile Include="render\module_render.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\shaders\technique.cpp">
+      <Filter>render\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry\angular.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry\transform.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\resource.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="render\meshes\mesh_resource.cpp">
+      <Filter>render\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\json_resource.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="render\textures\texture.cpp">
+      <Filter>render\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="render\textures\DDSTextureLoader.cpp">
+      <Filter>render\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="handle\handle_def.cpp">
+      <Filter>handle</Filter>
+    </ClCompile>
+    <ClCompile Include="handle\handle_manager.cpp">
+      <Filter>handle</Filter>
+    </ClCompile>
+    <ClCompile Include="entity\entity.cpp">
+      <Filter>entity</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\comp_name.cpp">
+      <Filter>components\common</Filter>
+    </ClCompile>
+    <ClCompile Include="entity\entity_parser.cpp">
+      <Filter>entity</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\module_entities.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\comp_transform.cpp">
+      <Filter>components\common</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\comp_render.cpp">
+      <Filter>components\common</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry\geometry.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="input\module_input.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="input\devices\device_keyboard.cpp">
+      <Filter>input\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="input\devices\device_mouse.cpp">
+      <Filter>input\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="input\devices\device_pad_xbox.cpp">
+      <Filter>input\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="input\interfaces\mapping.cpp">
+      <Filter>input\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\comp_camera.cpp">
+      <Filter>components\common</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\module_boot.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="render\textures\material.cpp">
+      <Filter>render\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\module_physics.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="render\meshes\collision_mesh.cpp">
+      <Filter>render\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\comp_tags.cpp">
+      <Filter>components\common</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\murmur3\murmur3.cpp">
+      <Filter>utils\murmur3</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_utils.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_manager.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="profiling\profiling.cpp">
+      <Filter>profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\comp_aabb.cpp">
+      <Filter>components\common</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\comp_culling.cpp">
+      <Filter>components\common</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\comp_hierarchy.cpp">
+      <Filter>components\common</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\comp_group.cpp">
+      <Filter>components\common</Filter>
+    </ClCompile>
+    <ClCompile Include="skeleton\comp_skeleton.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="skeleton\game_core_skeleton.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\module_camera_mixer.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\test\module_test_cameras.cpp">
+      <Filter>modules\test</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry\curve.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\physics\comp_rigid_body.cpp">
+      <Filter>components\common\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="components\controllers\comp_sCart_controller.cpp">
+      <Filter>components\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\test\module_weapon_select.cpp">
+      <Filter>modules\test</Filter>
+    </ClCompile>
+    <ClCompile Include="skeleton\comp_animator.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="components\ai\bt\bt_controller.cpp">
+      <Filter>components\ai\bt</Filter>
+    </ClCompile>
+    <ClCompile Include="components\ai\bt\bt_cupcake.cpp">
+      <Filter>components\ai\bt</Filter>
+    </ClCompile>
+    <ClCompile Include="components\ai\bt\bt_golem.cpp">
+      <Filter>components\ai\bt</Filter>
+    </ClCompile>
+    <ClCompile Include="components\ai\bt\bt_node.cpp">
+      <Filter>components\ai\bt</Filter>
+    </ClCompile>
+    <ClCompile Include="components\ai\bt\bt_sushi.cpp">
+      <Filter>components\ai\bt</Filter>
+    </ClCompile>
+    <ClCompile Include="components\bullets\comp_grenade_golem.cpp">
+      <Filter>components\bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="components\bullets\comp_turret_bullet.cpp">
+      <Filter>components\bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="components\controllers\camera\comp_camera_3rd_person.cpp">
+      <Filter>components\controllers\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="components\controllers\character\comp_character_controller.cpp">
+      <Filter>components\controllers\character</Filter>
+    </ClCompile>
+    <ClCompile Include="components\powers\comp_coffee.cpp">
+      <Filter>components\powers</Filter>
+    </ClCompile>
+    <ClCompile Include="components\powers\comp_madness.cpp">
+      <Filter>components\powers</Filter>
+    </ClCompile>
+    <ClCompile Include="components\powers\comp_teleport.cpp">
+      <Filter>components\powers</Filter>
+    </ClCompile>
+    <ClCompile Include="components\powers\comp_battery.cpp">
+      <Filter>components\powers</Filter>
+    </ClCompile>
+    <ClCompile Include="components\ai\graph\ai_controller.cpp">
+      <Filter>components\ai\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\game\module_game_controller.cpp">
+      <Filter>modules\game</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\physics\comp_collider.cpp">
+      <Filter>components\common\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="components\objects\checkpoints\checkpoint.cpp">
+      <Filter>components\objects\checkpoints</Filter>
+    </ClCompile>
+    <ClCompile Include="components\objects\checkpoints\comp_trigger_checkpoint.cpp">
+      <Filter>components\objects\checkpoints</Filter>
+    </ClCompile>
+    <ClCompile Include="skeleton\comp_bone_tracker.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\ragdoll_core.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\ragdoll.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\module_multithreading.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\comp_light_dir.cpp">
+      <Filter>components\common</Filter>
+    </ClCompile>
+    <ClCompile Include="render\textures\render_to_texture.cpp">
+      <Filter>render\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="components\controllers\comp_parabolic_launch.cpp">
+      <Filter>components\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="components\ai\graph\ai_platform.cpp">
+      <Filter>components\ai\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="components\controllers\camera\comp_removable_camera.cpp">
+      <Filter>components\controllers\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="components\objects\comp_madness_puddle.cpp">
+      <Filter>components\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="components\objects\comp_madness_fountain.cpp">
+      <Filter>components\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="components\objects\comp_enemy_spawner.cpp">
+      <Filter>components\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="components\ai\others\self_destroy.cpp">
+      <Filter>components\ai\others</Filter>
+    </ClCompile>
+    <ClCompile Include="components\objects\comp_increase_power.cpp">
+      <Filter>components\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\comp_id.cpp">
+      <Filter>components\common</Filter>
+    </ClCompile>
+    <ClCompile Include="components\objects\comp_destroyable_wall.cpp">
+      <Filter>components\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="components\animation\comp_player_animation.cpp">
+      <Filter>components\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="render\deferred_renderer.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\comp_light_point.cpp">
+      <Filter>components\common</Filter>
+    </ClCompile>
+    <ClCompile Include="render\meshes\mesh_instanced.cpp">
+      <Filter>render\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\test\module_test_instancing.cpp">
+      <Filter>modules\test</Filter>
+    </ClCompile>
+    <ClCompile Include="components\postfx\comp_render_ao.cpp">
+      <Filter>components\postfx</Filter>
+    </ClCompile>
+    <ClCompile Include="render\intel\ASSAODX11.cpp">
+      <Filter>render\intel</Filter>
+    </ClCompile>
+    <ClCompile Include="render\blur_step.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="components\postfx\comp_render_blur.cpp">
+      <Filter>components\postfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\postfx\comp_render_focus.cpp">
+      <Filter>components\postfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\postfx\comp_render_bloom.cpp">
+      <Filter>components\postfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\postfx\comp_color_grading.cpp">
+      <Filter>components\postfx</Filter>
+    </ClCompile>
+    <ClCompile Include="render\textures\material_mixing.cpp">
+      <Filter>render\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="skeleton\bone_correction.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="skeleton\comp_skel_lookat.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\game\module_camera_shaker.cpp">
+      <Filter>modules\game</Filter>
+    </ClCompile>
+    <ClCompile Include="components\ai\others\comp_blackboard.cpp">
+      <Filter>components\ai\others</Filter>
+    </ClCompile>
+    <ClCompile Include="components\ai\bt\bt_ranged_sushi.cpp">
+      <Filter>components\ai\bt</Filter>
+    </ClCompile>
+    <ClCompile Include="components\bullets\comp_kinematic_bullet.cpp">
+      <Filter>components\bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="components\objects\triggers\comp_trigger_damage_zone.cpp">
+      <Filter>components\objects\triggers</Filter>
+    </ClCompile>
+    <ClCompile Include="components\objects\triggers\comp_trigger.cpp">
+      <Filter>components\objects\triggers</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\game\module_scripting.cpp">
+      <Filter>modules\game</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\gameplay_fragments\module_ambush.cpp">
+      <Filter>modules\gameplay_fragments</Filter>
+    </ClCompile>
+    <ClCompile Include="components\animation\comp_sushi_animation.cpp">
+      <Filter>components\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="components\powers\comp_fire.cpp">
+      <Filter>components\powers</Filter>
+    </ClCompile>
+    <ClCompile Include="components\ai\traps\ai_turret.cpp">
+      <Filter>components\ai\traps</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\game\module_fluid_decal_generator.cpp">
+      <Filter>modules\game</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\game\module_audio.cpp">
+      <Filter>modules\game</Filter>
+    </ClCompile>
+    <ClCompile Include="components\objects\comp_wind_trap.cpp">
+      <Filter>components\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="components\animation\comp_prop_animation.cpp">
+      <Filter>components\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="components\actions\comp_checkpoint_register.cpp">
+      <Filter>components\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\module_navmesh.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\ChunkyTriMesh.cpp">
+      <Filter>navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\InputGeom.cpp">
+      <Filter>navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\MeshLoaderObj.cpp">
+      <Filter>navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\navmesh.cpp">
+      <Filter>navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\navmesh_query.cpp">
+      <Filter>navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\navmesh_render.cpp">
+      <Filter>navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\DebugDraw.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\DetourAlloc.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\DetourCommon.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\DetourCrowd.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\DetourDebugDraw.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\DetourLocalBoundary.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\DetourNavMesh.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\DetourNavMeshBuilder.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\DetourNavMeshQuery.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\DetourNode.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\DetourObstacleAvoidance.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\DetourPathCorridor.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\DetourPathQueue.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\DetourProximityGrid.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\DetourTileCache.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\DetourTileCacheBuilder.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\Recast.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\RecastAlloc.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\RecastArea.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\RecastContour.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\RecastDebugDraw.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\RecastDump.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\RecastFilter.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\RecastLayers.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\RecastMesh.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\RecastMeshDetail.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\RecastRasterization.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\RecastRegion.cpp">
+      <Filter>navmesh\recast</Filter>
+    </ClCompile>
+    <ClCompile Include="navmesh\recast\fastlz\fastlz.cpp">
+      <Filter>navmesh\recast\fastlz</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\game\audio\audioEvent.cpp">
+      <Filter>modules\game\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="components\actions\comp_scale_gradually.cpp">
+      <Filter>components\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="components\postfx\comp_antialiasing.cpp">
+      <Filter>components\postfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\postfx\comp_chromatic_aberration.cpp">
+      <Filter>components\postfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\postfx\comp_tone_mapping.cpp">
+      <Filter>components\postfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\vfx\comp_bolt_billboard.cpp">
+      <Filter>components\vfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\comp_buffers.cpp">
+      <Filter>components\common</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\comp_compute.cpp">
+      <Filter>components\common</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\comp_lod.cpp">
+      <Filter>components\common</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\comp_num_instances.cpp">
+      <Filter>components\common</Filter>
+    </ClCompile>
+    <ClCompile Include="render\compute\compute_shader.cpp">
+      <Filter>render\compute</Filter>
+    </ClCompile>
+    <ClCompile Include="render\compute\gpu_buffer.cpp">
+      <Filter>render\compute</Filter>
+    </ClCompile>
+    <ClCompile Include="render\module_gpu_culling.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="profiling\Remotery.c">
+      <Filter>profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\module_ui.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ui_parser.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ui_utils.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ui_widget.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\controllers\ui_menu_controller.cpp">
+      <Filter>ui\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\effects\ui_fx_animate_uv.cpp">
+      <Filter>ui\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\effects\ui_fx_scale.cpp">
+      <Filter>ui\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\widgets\ui_image.cpp">
+      <Filter>ui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\widgets\ui_progress.cpp">
+      <Filter>ui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\widgets\ui_text.cpp">
+      <Filter>ui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\widgets\ui_button.cpp">
+      <Filter>ui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="components\vfx\comp_bolt_sphere.cpp">
+      <Filter>components\vfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\vfx\comp_scalable.cpp">
+      <Filter>components\vfx</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\game\module_game_paused.cpp">
+      <Filter>modules\game</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\game\module_game_ui.cpp">
+      <Filter>modules\game</Filter>
+    </ClCompile>
+    <ClCompile Include="components\vfx\comp_dust.cpp">
+      <Filter>components\vfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\comp_dynamic_instance.cpp">
+      <Filter>components\common</Filter>
+    </ClCompile>
+    <ClCompile Include="skeleton\comp_skel_lookat_direction.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="components\objects\comp_termoestato.cpp">
+      <Filter>components\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="components\animation\comp_morph_animation.cpp">
+      <Filter>components\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="components\vfx\comp_trail.cpp">
+      <Filter>components\vfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\comp_particles.cpp">
+      <Filter>components\common</Filter>
+    </ClCompile>
+    <ClCompile Include="particles\particle_parser.cpp">
+      <Filter>particles</Filter>
+    </ClCompile>
+    <ClCompile Include="particles\particle_system.cpp">
+      <Filter>particles</Filter>
+    </ClCompile>
+    <ClCompile Include="particles\module_particles.cpp">
+      <Filter>particles</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\module_scenes.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\widgets\ui_bar.cpp">
+      <Filter>ui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="components\objects\comp_blade_trap.cpp">
+      <Filter>components\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="components\animation\comp_golem_animation.cpp">
+      <Filter>components\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="components\objects\comp_interruptor.cpp">
+      <Filter>components\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="components\controllers\comp_enemies_in_tube.cpp">
+      <Filter>components\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="skeleton\comp_bone_tracker_golem.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="components\objects\comp_enemies_in_butcher.cpp">
+      <Filter>components\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="components\vfx\comp_air.cpp">
+      <Filter>components\vfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\vfx\comp_slow_disappear.cpp">
+      <Filter>components\vfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\objects\comp_fire_trap.cpp">
+      <Filter>components\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\game\module_game_manager.cpp">
+      <Filter>modules\game</Filter>
+    </ClCompile>
+    <ClCompile Include="components\vfx\comp_fire_follow.cpp">
+      <Filter>components\vfx</Filter>
+    </ClCompile>
+    <ClCompile Include="render\radial_blur_step.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="components\postfx\comp_render_radial_blur.cpp">
+      <Filter>components\postfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\vfx\comp_bolt_aura_billboard.cpp">
+      <Filter>components\vfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\powers\comp_melee_trigger.cpp">
+      <Filter>components\powers</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\game\module_game_loading.cpp">
+      <Filter>modules\game</Filter>
+    </ClCompile>
+    <ClCompile Include="components\vfx\comp_death_billboard.cpp">
+      <Filter>components\vfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\actions\comp_audioPlayer.cpp">
+      <Filter>components\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="components\vfx\comp_flickering.cpp">
+      <Filter>components\vfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\vfx\comp_fire_randomizer.cpp">
+      <Filter>components\vfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\vfx\comp_billboard_xz.cpp">
+      <Filter>components\vfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\controllers\comp_inventory.cpp">
+      <Filter>components\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\game\module_game_over.cpp">
+      <Filter>modules\game</Filter>
+    </ClCompile>
+    <ClCompile Include="components\vfx\comp_bolt_sphere_oven.cpp">
+      <Filter>components\vfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\objects\comp_door.cpp">
+      <Filter>components\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\game\module_win_game.cpp">
+      <Filter>modules\game</Filter>
+    </ClCompile>
+    <ClCompile Include="components\objects\comp_restore_madness.cpp">
+      <Filter>components\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="components\objects\comp_platform_fire_trap.cpp">
+      <Filter>components\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="components\postfx\comp_damaged_effect.cpp">
+      <Filter>components\postfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\postfx\comp_vignetting.cpp">
+      <Filter>components\postfx</Filter>
+    </ClCompile>
+    <ClCompile Include="components\objects\comp_balance.cpp">
+      <Filter>components\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="components\bullets\comp_turret_bullet_golem.cpp">
+      <Filter>components\bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="components\controllers\camera\comp_camera_flyover.cpp">
+      <Filter>components\controllers\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="components\controllers\comp_trans_curve_controller.cpp">
+      <Filter>components\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="components\common\comp_onom_manager.cpp">
+      <Filter>components\common</Filter>
+    </ClCompile>
+    <ClCompile Include="components\objects\comp_rotator.cpp">
+      <Filter>components\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\game\module_game_intro.cpp">
+      <Filter>modules\game</Filter>
+    </ClCompile>
+    <ClCompile Include="components\vfx\comp_boom_billboard.cpp">
+      <Filter>components\vfx</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mcv_platform.h" />
+    <ClInclude Include="render\render.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="windows\app.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="render\shaders\shader.h">
+      <Filter>render\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="render\shaders\compile.h">
+      <Filter>render\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="render\meshes\mesh.h">
+      <Filter>render\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="render\meshes\vertex_declarations.h">
+      <Filter>render\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\geometry.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\camera.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="render\shaders\cte_buffer.h">
+      <Filter>render\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\SimpleMath.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\json.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bin\data\shaders\constants.h">
+      <Filter>data\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bin\data\shaders\platform.h">
+      <Filter>data\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="render\primitives.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\module.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\module_manager.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\test\module_gameplay.h">
+      <Filter>modules\test</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\test\module_main_menu.h">
+      <Filter>modules\test</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\test\module_splash.h">
+      <Filter>modules\test</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h" />
+    <ClInclude Include="utils\utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="render\module_render.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\gamestate.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\json.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\data_provider.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="render\meshes\mesh_io.h">
+      <Filter>render\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\test\module_sample_objs.h">
+      <Filter>modules\test</Filter>
+    </ClInclude>
+    <ClInclude Include="render\shaders\technique.h">
+      <Filter>render\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\angular.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\transform.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\json_resource.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\directory_watcher.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="render\textures\texture.h">
+      <Filter>render\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="render\textures\DDSTextureLoader.h">
+      <Filter>render\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="handle\handle.h">
+      <Filter>handle</Filter>
+    </ClInclude>
+    <ClInclude Include="handle\handle_def.h">
+      <Filter>handle</Filter>
+    </ClInclude>
+    <ClInclude Include="handle\handle_manager.h">
+      <Filter>handle</Filter>
+    </ClInclude>
+    <ClInclude Include="handle\object_manager.h">
+      <Filter>handle</Filter>
+    </ClInclude>
+    <ClInclude Include="entity\entity.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\comp_name.h">
+      <Filter>components\common</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\comp_base.h">
+      <Filter>components\common</Filter>
+    </ClInclude>
+    <ClInclude Include="entity\entity_parser.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="entity\common_msgs.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="entity\msgs.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="entity\base_callback.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\module_entities.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\comp_transform.h">
+      <Filter>components\common</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\comp_render.h">
+      <Filter>components\common</Filter>
+    </ClInclude>
+    <ClInclude Include="input\module_input.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="input\interfaces\gamepad.h">
+      <Filter>input\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="input\interfaces\keyboard.h">
+      <Filter>input\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="input\interfaces\mouse.h">
+      <Filter>input\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="input\button.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="input\enums.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="input\device.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="input\devices\device_keyboard.h">
+      <Filter>input\devices</Filter>
+    </ClInclude>
+    <ClInclude Include="input\devices\device_mouse.h">
+      <Filter>input\devices</Filter>
+    </ClInclude>
+    <ClInclude Include="input\input.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="input\devices\device_pad_xbox.h">
+      <Filter>input\devices</Filter>
+    </ClInclude>
+    <ClInclude Include="input\interfaces\rumble.h">
+      <Filter>input\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="input\interfaces\mapping.h">
+      <Filter>input\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\comp_camera.h">
+      <Filter>components\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\module_boot.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="render\textures\material.h">
+      <Filter>render\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\module_physics.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="render\meshes\collision_mesh.h">
+      <Filter>render\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\comp_tags.h">
+      <Filter>components\common</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\murmur3\murmur3.h">
+      <Filter>utils\murmur3</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render_utils.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\meshes\mesh_group.h">
+      <Filter>render\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render_manager.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\named_values.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="profiling\profiling.h">
+      <Filter>profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\comp_aabb.h">
+      <Filter>components\common</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\comp_culling.h">
+      <Filter>components\common</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\comp_hierarchy.h">
+      <Filter>components\common</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\comp_group.h">
+      <Filter>components\common</Filter>
+    </ClInclude>
+    <ClInclude Include="skeleton\comp_skeleton.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="skeleton\game_core_skeleton.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="skeleton\cal3d2engine.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\module_camera_mixer.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\test\module_test_cameras.h">
+      <Filter>modules\test</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\interpolators.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\curve.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\physics\comp_rigid_body.h">
+      <Filter>components\common\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="components\controllers\comp_sCart_controller.h">
+      <Filter>components\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\test\module_weapon_select.h">
+      <Filter>modules\test</Filter>
+    </ClInclude>
+    <ClInclude Include="skeleton\comp_animator.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="components\ai\bt\bt_controller.h">
+      <Filter>components\ai\bt</Filter>
+    </ClInclude>
+    <ClInclude Include="components\ai\bt\bt_cupcake.h">
+      <Filter>components\ai\bt</Filter>
+    </ClInclude>
+    <ClInclude Include="components\ai\bt\bt_golem.h">
+      <Filter>components\ai\bt</Filter>
+    </ClInclude>
+    <ClInclude Include="components\ai\bt\bt_node.h">
+      <Filter>components\ai\bt</Filter>
+    </ClInclude>
+    <ClInclude Include="components\ai\bt\bt_sushi.h">
+      <Filter>components\ai\bt</Filter>
+    </ClInclude>
+    <ClInclude Include="components\bullets\comp_grenade_golem.h">
+      <Filter>components\bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="components\bullets\comp_turret_bullet.h">
+      <Filter>components\bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="components\controllers\camera\comp_camera_3rd_person.h">
+      <Filter>components\controllers\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="components\controllers\character\comp_character_controller.h">
+      <Filter>components\controllers\character</Filter>
+    </ClInclude>
+    <ClInclude Include="components\powers\comp_coffee.h">
+      <Filter>components\powers</Filter>
+    </ClInclude>
+    <ClInclude Include="components\powers\comp_madness.h">
+      <Filter>components\powers</Filter>
+    </ClInclude>
+    <ClInclude Include="components\powers\comp_teleport.h">
+      <Filter>components\powers</Filter>
+    </ClInclude>
+    <ClInclude Include="components\powers\comp_battery.h">
+      <Filter>components\powers</Filter>
+    </ClInclude>
+    <ClInclude Include="components\ai\graph\ai_controller.h">
+      <Filter>components\ai\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\game\module_game_controller.h">
+      <Filter>modules\game</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\physics\comp_collider.h">
+      <Filter>components\common\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="components\objects\checkpoints\checkpoint.h">
+      <Filter>components\objects\checkpoints</Filter>
+    </ClInclude>
+    <ClInclude Include="components\objects\checkpoints\comp_trigger_checkpoint.h">
+      <Filter>components\objects\checkpoints</Filter>
+    </ClInclude>
+    <ClInclude Include="skeleton\comp_bone_tracker.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="components\controllers\comp_parabolic_launch.h">
+      <Filter>components\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="components\ai\graph\ai_platform.h">
+      <Filter>components\ai\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\ragdoll_core.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\ragdoll.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\module_multithreading.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\comp_light_dir.h">
+      <Filter>components\common</Filter>
+    </ClInclude>
+    <ClInclude Include="render\textures\render_to_texture.h">
+      <Filter>render\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="components\controllers\camera\comp_removable_camera.h">
+      <Filter>components\controllers\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="components\objects\comp_madness_puddle.h">
+      <Filter>components\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="components\objects\comp_madness_fountain.h">
+      <Filter>components\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="components\objects\comp_enemy_spawner.h">
+      <Filter>components\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="components\ai\others\self_destroy.h">
+      <Filter>components\ai\others</Filter>
+    </ClInclude>
+    <ClInclude Include="datatypes.h" />
+    <ClInclude Include="components\objects\comp_increase_power.h">
+      <Filter>components\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\comp_id.h">
+      <Filter>components\common</Filter>
+    </ClInclude>
+    <ClInclude Include="components\objects\comp_destroyable_wall.h">
+      <Filter>components\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="components\animation\comp_player_animation.h">
+      <Filter>components\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="render\gpu_trace.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\deferred_renderer.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\comp_light_point.h">
+      <Filter>components\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\game\module_camera_shaker.h">
+      <Filter>modules\game</Filter>
+    </ClInclude>
+    <ClInclude Include="components\ai\others\comp_blackboard.h">
+      <Filter>components\ai\others</Filter>
+    </ClInclude>
+    <ClInclude Include="components\ai\bt\bt_ranged_sushi.h">
+      <Filter>components\ai\bt</Filter>
+    </ClInclude>
+    <ClInclude Include="components\bullets\comp_kinematic_bullet.h">
+      <Filter>components\bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\PerlinNoise.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="components\objects\triggers\comp_trigger_damage_zone.h">
+      <Filter>components\objects\triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="components\objects\triggers\comp_trigger.h">
+      <Filter>components\objects\triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\game\module_scripting.h">
+      <Filter>modules\game</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\gameplay_fragments\module_ambush.h">
+      <Filter>modules\gameplay_fragments</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\gameplay_fragments\module_gameplay_fragment.h">
+      <Filter>modules\gameplay_fragments</Filter>
+    </ClInclude>
+    <ClInclude Include="components\animation\comp_sushi_animation.h">
+      <Filter>components\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\test\module_test_instancing.h">
+      <Filter>modules\test</Filter>
+    </ClInclude>
+    <ClInclude Include="components\postfx\comp_render_ao.h">
+      <Filter>components\postfx</Filter>
+    </ClInclude>
+    <ClInclude Include="render\intel\ASSAO.h">
+      <Filter>render\intel</Filter>
+    </ClInclude>
+    <ClInclude Include="render\blur_step.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="components\postfx\comp_render_blur.h">
+      <Filter>components\postfx</Filter>
+    </ClInclude>
+    <ClInclude Include="components\postfx\comp_render_focus.h">
+      <Filter>components\postfx</Filter>
+    </ClInclude>
+    <ClInclude Include="components\postfx\comp_color_grading.h">
+      <Filter>components\postfx</Filter>
+    </ClInclude>
+    <ClInclude Include="components\postfx\comp_render_bloom.h">
+      <Filter>components\postfx</Filter>
+    </ClInclude>
+    <ClInclude Include="render\textures\material_mixing.h">
+      <Filter>render\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="skeleton\comp_skel_lookat.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="skeleton\bone_correction.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="render\meshes\mesh_instanced.h">
+      <Filter>render\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="components\powers\comp_fire.h">
+      <Filter>components\powers</Filter>
+    </ClInclude>
+    <ClInclude Include="components\ai\traps\ai_turret.h">
+      <Filter>components\ai\traps</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\game\module_fluid_decal_generator.h">
+      <Filter>modules\game</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\game\module_audio.h">
+      <Filter>modules\game</Filter>
+    </ClInclude>
+    <ClInclude Include="components\objects\comp_wind_trap.h">
+      <Filter>components\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="components\animation\comp_prop_animation.h">
+      <Filter>components\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="components\actions\comp_checkpoint_register.h">
+      <Filter>components\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\module_navmesh.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\ChunkyTriMesh.h">
+      <Filter>navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\InputGeom.h">
+      <Filter>navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\MeshLoaderObj.h">
+      <Filter>navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\navmesh.h">
+      <Filter>navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\navmesh_query.h">
+      <Filter>navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\navmesh_render.h">
+      <Filter>navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\DebugDraw.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\DetourAlloc.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\DetourAssert.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\DetourCommon.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\DetourCrowd.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\DetourDebugDraw.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\DetourLocalBoundary.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\DetourMath.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\DetourNavMesh.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\DetourNavMeshBuilder.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\DetourNavMeshQuery.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\DetourNode.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\DetourObstacleAvoidance.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\DetourPathCorridor.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\DetourPathQueue.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\DetourProximityGrid.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\DetourStatus.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\DetourTileCache.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\DetourTileCacheBuilder.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\Recast.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\RecastAlloc.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\RecastAssert.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\RecastDebugDraw.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\RecastDump.h">
+      <Filter>navmesh\recast</Filter>
+    </ClInclude>
+    <ClInclude Include="navmesh\recast\fastlz\fastlz.h">
+      <Filter>navmesh\recast\fastlz</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\game\audio\audioEvent.h">
+      <Filter>modules\game\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="components\actions\comp_scale_gradually.h">
+      <Filter>components\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="components\postfx\comp_antialiasing.h">
+      <Filter>components\postfx</Filter>
+    </ClInclude>
+    <ClInclude Include="components\postfx\comp_chromatic_aberration.h">
+      <Filter>components\postfx</Filter>
+    </ClInclude>
+    <ClInclude Include="components\postfx\comp_tone_mapping.h">
+      <Filter>components\postfx</Filter>
+    </ClInclude>
+    <ClInclude Include="components\vfx\comp_bolt_billboard.h">
+      <Filter>components\vfx</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\comp_buffers.h">
+      <Filter>components\common</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\comp_compute.h">
+      <Filter>components\common</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\comp_lod.h">
+      <Filter>components\common</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\comp_num_instances.h">
+      <Filter>components\common</Filter>
+    </ClInclude>
+    <ClInclude Include="render\compute\compute_shader.h">
+      <Filter>render\compute</Filter>
+    </ClInclude>
+    <ClInclude Include="render\compute\gpu_buffer.h">
+      <Filter>render\compute</Filter>
+    </ClInclude>
+    <ClInclude Include="render\module_gpu_culling.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="profiling\Remotery.h">
+      <Filter>profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\module_ui.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_controller.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_effect.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_params.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_parser.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_utils.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_widget.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\controllers\ui_menu_controller.h">
+      <Filter>ui\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\effects\ui_fx_animate_uv.h">
+      <Filter>ui\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\effects\ui_fx_scale.h">
+      <Filter>ui\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\widgets\ui_button.h">
+      <Filter>ui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\widgets\ui_image.h">
+      <Filter>ui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\widgets\ui_progress.h">
+      <Filter>ui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\widgets\ui_text.h">
+      <Filter>ui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="components\vfx\comp_bolt_sphere.h">
+      <Filter>components\vfx</Filter>
+    </ClInclude>
+    <ClInclude Include="components\vfx\comp_scalable.h">
+      <Filter>components\vfx</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\game\module_game_paused.h">
+      <Filter>modules\game</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\game\module_game_ui.h">
+      <Filter>modules\game</Filter>
+    </ClInclude>
+    <ClInclude Include="components\vfx\comp_dust.h">
+      <Filter>components\vfx</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\comp_dynamic_instance.h">
+      <Filter>components\common</Filter>
+    </ClInclude>
+    <ClInclude Include="skeleton\comp_skel_lookat_direction.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="components\objects\comp_termoestato.h">
+      <Filter>components\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="components\vfx\comp_trail.h">
+      <Filter>components\vfx</Filter>
+    </ClInclude>
+    <ClInclude Include="components\animation\comp_morph_animation.h">
+      <Filter>components\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\comp_particles.h">
+      <Filter>components\common</Filter>
+    </ClInclude>
+    <ClInclude Include="particles\particle.h">
+      <Filter>particles</Filter>
+    </ClInclude>
+    <ClInclude Include="particles\particle_emitter.h">
+      <Filter>particles</Filter>
+    </ClInclude>
+    <ClInclude Include="particles\particle_parser.h">
+      <Filter>particles</Filter>
+    </ClInclude>
+    <ClInclude Include="particles\particle_system.h">
+      <Filter>particles</Filter>
+    </ClInclude>
+    <ClInclude Include="particles\module_particles.h">
+      <Filter>particles</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\module_scenes.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\widgets\ui_bar.h">
+      <Filter>ui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="components\objects\comp_blade_trap.h">
+      <Filter>components\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="components\animation\comp_golem_animation.h">
+      <Filter>components\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="components\objects\comp_interruptor.h">
+      <Filter>components\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="components\controllers\comp_enemies_in_tube.h">
+      <Filter>components\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="skeleton\comp_bone_tracker_golem.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="components\objects\comp_enemies_in_butcher.h">
+      <Filter>components\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="components\vfx\comp_air.h">
+      <Filter>components\vfx</Filter>
+    </ClInclude>
+    <ClInclude Include="components\vfx\comp_slow_disappear.h">
+      <Filter>components\vfx</Filter>
+    </ClInclude>
+    <ClInclude Include="components\objects\comp_fire_trap.h">
+      <Filter>components\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\game\module_game_manager.h">
+      <Filter>modules\game</Filter>
+    </ClInclude>
+    <ClInclude Include="components\vfx\comp_fire_follow.h">
+      <Filter>components\vfx</Filter>
+    </ClInclude>
+    <ClInclude Include="render\radial_blur_step.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="components\postfx\comp_render_radial_blur.h">
+      <Filter>components\postfx</Filter>
+    </ClInclude>
+    <ClInclude Include="components\vfx\comp_bolt_aura_billboard.h">
+      <Filter>components\vfx</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\time.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="components\powers\comp_melee_trigger.h">
+      <Filter>components\powers</Filter>
+    </ClInclude>
+    <ClInclude Include="components\actions\comp_audioPlayer.h">
+      <Filter>components\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\game\module_game_loading.h">
+      <Filter>modules\game</Filter>
+    </ClInclude>
+    <ClInclude Include="components\vfx\comp_death_billboard.h">
+      <Filter>components\vfx</Filter>
+    </ClInclude>
+    <ClInclude Include="components\vfx\comp_flickering.h">
+      <Filter>components\vfx</Filter>
+    </ClInclude>
+    <ClInclude Include="components\vfx\comp_fire_randomizer.h">
+      <Filter>components\vfx</Filter>
+    </ClInclude>
+    <ClInclude Include="components\vfx\comp_billboard_xz.h">
+      <Filter>components\vfx</Filter>
+    </ClInclude>
+    <ClInclude Include="components\controllers\comp_inventory.h">
+      <Filter>components\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\game\module_game_over.h">
+      <Filter>modules\game</Filter>
+    </ClInclude>
+    <ClInclude Include="components\vfx\comp_bolt_sphere_oven.h">
+      <Filter>components\vfx</Filter>
+    </ClInclude>
+    <ClInclude Include="components\objects\comp_door.h">
+      <Filter>components\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\game\module_win_game.h">
+      <Filter>modules\game</Filter>
+    </ClInclude>
+    <ClInclude Include="components\objects\comp_restore_madness.h">
+      <Filter>components\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="components\postfx\comp_damaged_effect.h">
+      <Filter>components\postfx</Filter>
+    </ClInclude>
+    <ClInclude Include="components\objects\comp_platform_fire_trap.h">
+      <Filter>components\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="components\postfx\comp_vignetting.h">
+      <Filter>components\postfx</Filter>
+    </ClInclude>
+    <ClInclude Include="components\objects\comp_balance.h">
+      <Filter>components\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="components\bullets\comp_turret_bullet_golem.h">
+      <Filter>components\bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="components\controllers\camera\comp_camera_flyover.h">
+      <Filter>components\controllers\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="components\controllers\comp_trans_curve_controller.h">
+      <Filter>components\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="components\common\comp_onom_manager.h">
+      <Filter>components\common</Filter>
+    </ClInclude>
+    <ClInclude Include="components\objects\comp_rotator.h">
+      <Filter>components\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\game\module_game_intro.h">
+      <Filter>modules\game</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="components\vfx\comp_boom_billboard.h">
+      <Filter>components\vfx</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="windows">
+      <UniqueIdentifier>{23f4ff50-604e-481f-9dbe-b4e5608aae3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{7272f1e1-79ed-4a35-a069-9a3e0e8f3626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{b63ed47f-a17a-4a11-b3aa-c1cf4c1d453e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geometry">
+      <UniqueIdentifier>{5801c043-80d9-4078-8a55-5e8a3c865189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render\shaders">
+      <UniqueIdentifier>{81684356-e636-43bc-9a3a-42c766e68e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render\meshes">
+      <UniqueIdentifier>{a2f086cb-d2db-4a6c-bb50-7e1a032288d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{da761577-0f39-4627-bf71-bb9f963b4b2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\shaders">
+      <UniqueIdentifier>{8ea4b9d7-f98a-41c7-9510-d10fb8c485ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{95380840-77b7-4588-bb4e-5dcfdd2eaf5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules">
+      <UniqueIdentifier>{d399b362-94f6-4bdb-8097-69549a54bdf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\test">
+      <UniqueIdentifier>{74809e7c-84e7-4ad4-84d5-c8bc27d94428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{d774035c-531a-4f61-9751-2103660789fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render\textures">
+      <UniqueIdentifier>{672fb05c-a635-45f6-b6ed-950337c5fa7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="handle">
+      <UniqueIdentifier>{f80db33b-bc87-4a6e-bea8-1424fec3311f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity">
+      <UniqueIdentifier>{77f9660e-da02-47ab-afd8-e273066214cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components">
+      <UniqueIdentifier>{2cd93d90-7365-484c-ab4a-1f9dacaabb96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\common">
+      <UniqueIdentifier>{a8470fcf-d455-4637-acd0-63d4f5171ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{d2a84c24-5de2-416f-bdb2-78da414344e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input\interfaces">
+      <UniqueIdentifier>{90791586-ddb4-49af-83c5-be26fd70dfa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input\devices">
+      <UniqueIdentifier>{3c46f5ac-2b3d-4d5f-8396-8e03a0c76326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\controllers">
+      <UniqueIdentifier>{0e03509d-c862-4561-8eb9-106574aaf40e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\murmur3">
+      <UniqueIdentifier>{ec5c8001-c99a-4850-982f-fd385c05411e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="profiling">
+      <UniqueIdentifier>{12e34e8b-8996-4737-9219-31cf4f3f03cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="skeleton">
+      <UniqueIdentifier>{c77b79f5-5861-44a8-801e-9d1933498b37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physics">
+      <UniqueIdentifier>{dc13aeb6-7132-46fe-bb74-bc449d4907ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\postfx">
+      <UniqueIdentifier>{f2cac065-9283-459e-9a1e-9b6904ce3dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render\intel">
+      <UniqueIdentifier>{4edb07bc-799a-4142-afb1-6ed480c0de06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\common\physics">
+      <UniqueIdentifier>{e897482a-1d9d-4c03-8759-58b0c2ac0884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\ai">
+      <UniqueIdentifier>{89955f2f-31ef-4cd6-adcc-c121e9599b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\bullets">
+      <UniqueIdentifier>{10d89ea7-583d-48b9-89f0-202abc1c0712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\ai\bt">
+      <UniqueIdentifier>{cb689e12-7c20-49c0-a2f9-d7963f81fa3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\ai\others">
+      <UniqueIdentifier>{18b16b47-c0bc-4c70-9782-a1fa59df7927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\controllers\camera">
+      <UniqueIdentifier>{6568fe3a-dd1f-4619-824f-23dc27365fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\controllers\character">
+      <UniqueIdentifier>{1bf62121-2700-402e-bad3-7537713df42f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\powers">
+      <UniqueIdentifier>{9c38ba6a-bbe1-4626-8d45-2d559427495b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\ai\graph">
+      <UniqueIdentifier>{cec0fb20-0773-4005-8d88-185ac8feb51c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\objects">
+      <UniqueIdentifier>{37ae56c0-aa36-4eee-b896-c457c35d1083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\objects\checkpoints">
+      <UniqueIdentifier>{321a01b5-290c-47e7-8e64-845d3c490bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\game">
+      <UniqueIdentifier>{beef900f-d40e-4dce-af3e-798277719117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\animation">
+      <UniqueIdentifier>{2af88c32-5744-4cc8-8324-88cb9e1b36d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{c99b44df-c963-4585-a4a8-dc69fe6c74e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\actions">
+      <UniqueIdentifier>{7a295faf-9163-41e3-b909-7ddacfe01c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\objects\triggers">
+      <UniqueIdentifier>{5d35ab0e-97f6-4bff-9731-b8feca892b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\gameplay_fragments">
+      <UniqueIdentifier>{302d25fe-5e4e-4556-bd70-44f5bade3ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\ai\traps">
+      <UniqueIdentifier>{3a18aea7-53a6-4ee5-8cc9-46ea2babd481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="navmesh">
+      <UniqueIdentifier>{43ba3c49-3a1c-43a8-9252-8a8a93e67426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="navmesh\recast">
+      <UniqueIdentifier>{1b587c87-2ed2-452a-95d7-4a3b6c7dae49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="navmesh\recast\fastlz">
+      <UniqueIdentifier>{1ac0e769-8a85-4bf4-9cc9-4c883c33604f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\game\audio">
+      <UniqueIdentifier>{7b00615a-ba9c-4f9b-9233-697f2b3285af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\vfx">
+      <UniqueIdentifier>{f4692548-5db6-462b-add6-26fd74745e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render\compute">
+      <UniqueIdentifier>{c3bd6caa-c562-49c1-a9a9-fda25d6f28cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{fad561fb-15d9-439f-9b84-57012725fdd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\controllers">
+      <UniqueIdentifier>{ea6a844d-46b9-467b-8666-a42528bbb07b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\effects">
+      <UniqueIdentifier>{2d12443c-acfd-4a89-b11d-acb37a7c4c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\widgets">
+      <UniqueIdentifier>{c4516125-3a64-4c55-b97c-b2b025aa476d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="particles">
+      <UniqueIdentifier>{b8772c77-e56a-4a7f-a651-134a66023bf6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="geometry\SimpleMath.inl">
+      <Filter>geometry</Filter>
+    </None>
+    <None Include="..\bin\data\shaders\techniques.json">
+      <Filter>data\shaders</Filter>
+    </None>
+    <None Include="scripts\script1.lua">
+      <Filter>scripts</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\bin\data\shaders\basics.fx">
+      <Filter>data\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\bin\data\shaders\objs.fx">
+      <Filter>data\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\bin\data\shaders\common.fx">
+      <Filter>data\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\bin\data\shaders\shadows.fx">
+      <Filter>data\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\bin\data\shaders\ui.fx">
+      <Filter>data\shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Engine.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\bin\data\textures\icono.ico" />
+  </ItemGroup>
+</Project>

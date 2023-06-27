@@ -1,0 +1,16 @@
+{
+  "technique": "objs_culled_by_gpu.tech"
+  ,
+  "textures":
+  {
+    "albedo": "data/textures/mapa_carnes/suelo_textura_DefaultMaterial_BaseColor_tile.dds"
+    ,
+    "normal": "data/textures/mapa_carnes/suelo_textura_DefaultMaterial_Normal_tile.dds"
+    ,
+    "metallic": "data/textures/black.dds"
+    ,
+    "roughness": "data/textures/white.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

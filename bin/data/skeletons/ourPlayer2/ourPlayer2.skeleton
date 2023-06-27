@@ -1,0 +1,160 @@
+{
+	"name": "ourPlayer2",
+	"anims": [
+		{
+			"name": "IDLE_FIRE"
+		},
+		{
+			"name": "IDLE_MELEE"
+		},
+		{
+			"name": "AIM_THROW"
+		},
+		{
+			"name": "DAMAGED"
+		},
+		{
+			"name": "DASH"
+		},
+		{
+			"name": "DOUBLE_JUMP"
+		},
+		{
+			"name": "DRINK"
+		},
+		{
+			"name": "JUMP_END"
+		},
+		{
+			"name": "IDLE_COMBAT"
+		},
+		{
+			"name": "JUMP_START"
+		},
+		{
+			"name": "MELEE1_FULL"
+		},
+		{
+			"name": "MELEE1_PARTIAL"
+		},
+		{
+			"name": "MELEE2_FULL"
+		},
+		{
+			"name": "MELEE2_PARTIAL"
+		},
+		{
+			"name": "ON_AIR"
+		},
+		{
+			"name": "RUN"
+		},
+		{
+			"name": "SCAN"
+		},
+		{
+			"name": "THROW"
+		},
+		{
+			"name": "WALK"
+		},
+		{
+			"name": "DEAD"
+		},
+		{
+			"name": "DIE"
+		},
+		{
+			"name": "FIRE_END"
+		},
+		{
+			"name": "FIRE_END_PARTIAL"
+		},
+		{
+			"name": "FIRE_LOOP"
+		},
+		{
+			"name": "FIRE_LOOP_PARTIAL"
+		},
+		{
+			"name": "FIRE_START"
+		},
+		{
+			"name": "FIRE_START_PARTIAL"
+		},
+		{
+			"name": "CHARGED_MELEE_ATTACK"
+		},
+		{
+			"name": "CHARGED_MELEE_LOOP"
+		},
+		{
+			"name": "CHARGED_MELEE_POSE"
+		},
+		{
+			"name": "SCART_IDLE"
+		},
+		{
+			"name": "SCART_LEFT_END"
+		},
+		{
+			"name": "SCART_LEFT_LOOP"
+		},
+		{
+			"name": "SCART_LEFT_START"
+		},
+		{
+			"name": "SCART_RIGHT_END"
+		},
+		{
+			"name": "SCART_RIGHT_LOOP"
+		},
+		{
+			"name": "SCART_RIGHT_START"
+		},
+		{
+			"name": "SCART_ROW"
+		},
+		{
+			"name": "SCANNER_LOOP"
+		}
+	],
+  	"bone_ids_to_debug" : [
+  	],
+  	"meshes": [
+      "playerMesh"
+    ],
+  "lookat_corrections": [
+  	
+		{
+			"bone": "Bone_head",
+			"local_axis_to_correct": "0 1 1",
+			"amount": 1.0
+		},
+		{
+			"bone": "Bone_mounth",
+			"local_axis_to_correct": "0 1 1",
+			"amount": 1.0
+		}
+		
+
+
+  ],
+	"lookat_direction_corrections": [
+		{
+			"bone": "Bone_cadera_der",
+			"local_axis_to_correct": "1 0 0",
+			"amount": 1.0,
+			"angle": 90.0
+		},
+		{
+			"bone": "Bone_cadera_izq",
+			"local_axis_to_correct": "1 0 0",
+			"amount": 1.0,
+			"angle": 90.0
+		}
+	],
+  "meshes": [
+    "ourPlayer2"
+  ]
+}

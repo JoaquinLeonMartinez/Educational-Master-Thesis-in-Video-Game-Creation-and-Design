@@ -1,0 +1,10 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/mapa_asiatica/asian_gate_forsp_palosasiangate_BaseColor.dds"
+    ,
+    "normal": "data/textures/mapa_asiatica/asian_gate_forsp_palohorizontal_Normal.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

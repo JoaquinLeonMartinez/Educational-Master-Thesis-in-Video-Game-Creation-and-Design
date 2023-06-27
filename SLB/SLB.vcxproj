@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\SLB\include\SLB\Allocator.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\Class.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\ClassHelpers.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\ClassInfo.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\Conversor.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\Debug.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\Error.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\Export.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\FuncCall.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\FuncCall_inline.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\Hybrid.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\Instance.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\Iterator.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\lua.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\LuaCall.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\lua\lauxlib.h" />
+    <ClInclude Include="..\source\SLB\include\SLB\lua\lua.h" />
+    <ClInclude Include="..\source\SLB\include\SLB\lua\luaconf.h" />
+    <ClInclude Include="..\source\SLB\include\SLB\lua\lualib.h" />
+    <ClInclude Include="..\source\SLB\include\SLB\Manager.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\Mutex.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\Object.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\Private_FuncCall.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\Property.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\PushGet.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\ref_ptr.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\Script.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\SLB.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\SPP.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\StatefulHybrid.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\String.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\Table.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\Type.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\TypeInfoWrapper.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\util.hpp" />
+    <ClInclude Include="..\source\SLB\include\SLB\Value.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\SLB\src\Allocator.cpp" />
+    <ClCompile Include="..\source\SLB\src\Class.cpp" />
+    <ClCompile Include="..\source\SLB\src\ClassHelpers.cpp" />
+    <ClCompile Include="..\source\SLB\src\ClassInfo.cpp" />
+    <ClCompile Include="..\source\SLB\src\Debug.cpp" />
+    <ClCompile Include="..\source\SLB\src\Error.cpp" />
+    <ClCompile Include="..\source\SLB\src\FuncCall.cpp" />
+    <ClCompile Include="..\source\SLB\src\Hybrid.cpp" />
+    <ClCompile Include="..\source\SLB\src\Instance.cpp" />
+    <ClCompile Include="..\source\SLB\src\Iterator.cpp" />
+    <ClCompile Include="..\source\SLB\src\lua.c" />
+    <ClCompile Include="..\source\SLB\src\LuaCall.cpp" />
+    <ClCompile Include="..\source\SLB\src\Manager.cpp" />
+    <ClCompile Include="..\source\SLB\src\Object.cpp" />
+    <ClCompile Include="..\source\SLB\src\Property.cpp" />
+    <ClCompile Include="..\source\SLB\src\Script.cpp" />
+    <ClCompile Include="..\source\SLB\src\SLB.cpp" />
+    <ClCompile Include="..\source\SLB\src\Table.cpp" />
+    <ClCompile Include="..\source\SLB\src\Type.cpp" />
+    <ClCompile Include="..\source\SLB\src\Value.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{FE86EE5A-3619-4063-A591-09090C0E45EC}</ProjectGuid>
+    <RootNamespace>SLB</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)..\bin</OutDir>
+    <IntDir>$(SolutionDir)..\Build\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IntDir>$(SolutionDir)..\Build\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>WIN32;_LIB;SLB_LIBRARY;_CRT_SECURE_NO_WARNINGS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <OptimizeReferences>false</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>WIN32;_LIB;SLB_LIBRARY;_CRT_SECURE_NO_WARNINGS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,85 @@
+[
+	{
+		"entity": {
+			"transform": {
+				"pos": "0 0 0"
+			},
+			"name": "Sushi000",
+			"collider": {
+				"shape": "capsule",
+				"controller": true,
+				"radius": 0.5,
+				"height": 0.8,
+				"group": "sushi",
+				"mask": "all"
+			},
+			"render": {
+				"mesh": "data/skeletons/ourSushi/ourSushi.mesh",
+				"color": "1.0 1.0 1.0 1.0",
+				"material": "data/materials/suhiMaterial.material"
+			},
+			"rigidbody": {},
+			"armature": {
+				"_unscaledTime": false,
+				"src": "data/skeletons/ourSushi/ourSushi.skeleton"
+			},
+			"local_aabb": {},
+			"abs_aabb": {},
+			"sushi_animator": {},
+			"comp_checkpoint_register":{
+			  "prefab": "data/prefabs/enemies/bt_sushi.json",
+			  "entityTypeString": "SUSHI"
+			},
+			"bt_sushi": {
+				"use_navmesh": true,
+				"_initiallyPaused": false,
+				"curve" : "data/curves/Line002.curve",
+				"halfCone": 45.0,
+				"hearingRadius": 10.0,
+				"combatViewDistance": 50.0,
+				"viewDistance": 30.0,
+				"life": 300,
+				"patrolSpeed": 1.0,
+				"chaseSpeed": 6.5,
+				"rotationSpeed": 170.0,
+				"damageStunDuration": 0.15,
+				"damageStunBackwardsSpeed": 2.5,
+				"distanceCheckThreshold": 0.7,
+				"randomDelay": 1.5,
+				"meleeComboProbability": 70,
+				"melee1Damage": 10.0,
+				"melee2Damage": 10.0,
+				"melee3Damage": 20.0,
+				"meleeDistance": 1.5,
+				"meleeDelay": 1.0,
+				"chargeProbability": 30,
+				"chargeSpeed": 20.0,
+				"chargeDamage": 15.0,
+				"chargeDelay": 1.0,
+				"chargeDuration": 0.7,
+				"chargeDistanceThreshold": 2.0,
+				"jumpChargeProbability": 30,
+				"jumpSpeed": 4.0,
+				"jumpHeight": 4.0,
+				"jumpChargeSpeed": 6.0,
+				"jumpChargeDamage": 15.0,
+				"jumpChargeDistanceThreshold": 3.0,
+				"saluteProbability": 30,
+				"saluteDuration": 2.0,
+				"blockProbability": 40,
+				"blockDuration": 2.0,
+				"orbitProbability": 90,
+				"orbitSpeed": 2.5,
+				"_fearSpeed": 5.5,
+				"_fearDuration": 2.0
+			},
+			"comp_self_destroy":{
+				"_selfDestructDelay" : 0,
+				"_isEnabled" : false
+			},
+			"tags": [
+				"enemy","sushi"
+			]
+		}
+	}
+]

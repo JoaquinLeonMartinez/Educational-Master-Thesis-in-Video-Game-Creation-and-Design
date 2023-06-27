@@ -1,0 +1,12 @@
+{
+  "technique": "objs_culled_by_gpu.tech"
+  ,
+  "textures":
+  {
+    "albedo": "data/textures/mapa_asiatica/asian_gate_forsp_palohorizontal_BaseColor.dds"
+    ,
+    "normal": "data/textures/mapa_asiatica/asian_gate_forsp_palohorizontal_Normal.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

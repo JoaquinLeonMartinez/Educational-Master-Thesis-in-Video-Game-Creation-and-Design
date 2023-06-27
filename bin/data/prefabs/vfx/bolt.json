@@ -1,0 +1,28 @@
+[
+  {
+    "entity": {
+      "name": "Bolt",
+      "transform": {
+        "pos": "0 0 0"
+      },
+      "render": {
+        "mesh": "bolt_quad.mesh",
+        "color": "0.0 0.5 1.0 1.0",
+        "materials":
+        [
+          "data/materials/vfx/bolt.material"
+        ]
+      },
+      "bolt_billboard":{},
+      "buffers" : {
+        "TCtesBolt" : {
+          "total_bytes" : 16,
+          "slot" : 13
+        }
+      },
+      "comp_self_destroy" : {
+        "_isEnabled": true
+      }
+    }
+  }
+]

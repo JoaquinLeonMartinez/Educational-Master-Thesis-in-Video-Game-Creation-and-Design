@@ -1,0 +1,9 @@
+{
+  "technique" : "explosion.tech",
+  "casts_shadows" : false,
+  "category" : "distorsions",
+  "textures":
+  {
+    "albedo": "data/textures/vfx/voronoi1.dds"
+  }
+}

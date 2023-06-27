@@ -1,0 +1,156 @@
+[
+
+  {
+    "entity":
+    {
+      "name": "Rigid Block001"
+      ,
+      "transform":
+      {
+        "pos": "0 0 0"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "collider":
+      {
+        "shapes":
+        [
+          {
+            "shape": "box"
+            ,
+            "half_size": "1.5 0.5 1.0"
+            ,
+            "offset":
+            {
+              "pos": "0.0 0.5 0.0"
+            }
+          }
+        ]
+        ,
+        "dynamic": false
+      }
+      
+    }
+  }
+  ,
+  {
+    "entity":
+    {
+      "name": "Joint001"
+      ,
+      "transform":
+      {
+        "pos": "0 0 0"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "collider":
+      {
+        "shapes":
+        [
+          {
+            "shape": "box"
+            ,
+            "half_size": "1.5 0.5 1.0"
+            ,
+            "offset":
+            {
+              "pos": "0.0 0.5 0.0"
+            },
+            "group":"product"
+          }
+        ]
+        ,
+        "dynamic": true
+        ,
+        "joints" : [
+          {
+            "type" : "revolute",
+            "obj0" : {
+              "name" : "Joint001",
+              "transform": {
+                "pos": "0.0 0.0 -1.0"
+              }
+            },
+            "obj1" : {
+              "name" : "Rigid Block001",
+              "transform": {
+                "pos": "0.0 0.0 1.0"
+              }
+            }
+          }
+        ]
+      }
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/LAMPARA_PALITOS/LAMPARA_PALITOS_Lampara.mesh"
+        ,
+        "color": "0.694118 0.105882 0.345098 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/LAMPARA_PALITOS/mat_lampara_med.material"
+          ,
+          "data/materials/LAMPARA_PALITOS/negro.material"
+        ]
+      }
+	  ,
+	  "comp_balance" : {}
+	  ,
+	  "tags" : ["joints"]
+    }
+  }
+,
+  {
+    "entity":
+    {
+      "name": "SpotJoint"
+      ,
+      "transform":
+      {
+        "pos": "0 0 0"
+        ,
+        "rotation": "0.0 -0.999994 0.00353997 0.0"
+        ,
+        "lookat": "-5.28445 -20.6634 0.282288"
+      }
+      ,
+      "hierarchy":
+      {
+        "pos": "0 0 3.5"
+        ,
+        "parent": "Joint001"
+      }
+      ,
+      "light_dir":
+      {
+        "near": 5
+        ,
+        "far": 39.8722
+        ,
+        "fov": 80.0
+        ,
+        "color": "0.976471 0.733333 0.521569 1.0"
+        ,
+        "intensity": 4.0
+        ,
+        "casts_shadows": true
+        ,
+        "shadows_resolution": 1024
+        ,
+        "shadows_fmt": "R32_TYPELESS"
+        ,
+        "shadows_step": 2.0
+        ,
+        "projector": "data/textures/punto_de_luz.dds"
+        ,
+        "shadows_enabled": false
+      }
+	  ,
+	  "tags" : ["jointsLight"]
+    }
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/mapa_carnes/texturaHelado.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

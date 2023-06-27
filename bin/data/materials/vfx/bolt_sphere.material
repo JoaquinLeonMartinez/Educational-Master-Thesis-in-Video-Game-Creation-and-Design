@@ -1,0 +1,9 @@
+{
+  "technique" : "bolt_sphere_effect.tech",
+  "casts_shadows" : false,
+  "category" : "shine",
+  "textures":
+  {
+    "albedo": "data/textures/vfx/toonexplosionramp.dds"
+  }
+}

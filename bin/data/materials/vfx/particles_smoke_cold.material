@@ -1,0 +1,11 @@
+{
+  "technique" : "particles_smoke_cold_num_instances.tech",
+  "casts_shadows" : false,
+  "category" : "transparent",
+  "textures": {
+    "albedo": "data/textures/particles/glow.dds",
+    "normal" : "data/textures/vfx/T_Random_45.dds",
+    "metallic": "data/textures/vfx/T_Random_54.dds",
+    "roughness": "data/textures/vfx/T_Random_39.dds"
+  }
+}

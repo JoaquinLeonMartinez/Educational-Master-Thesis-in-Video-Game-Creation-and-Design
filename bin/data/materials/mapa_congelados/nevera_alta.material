@@ -1,0 +1,16 @@
+{
+  "technique": "objs_culled_by_gpu.tech"
+  ,
+  "textures":
+  {
+    "albedo": "data/textures/mapa_congelados/nevera_alta_nevera_alta_BaseColor.dds"
+    ,
+    "normal": "data/textures/mapa_congelados/nevera_alta_nevera_alta_Normal.dds"
+    ,
+    "metallic": "data/textures/mapa_congelados/nevera_alta_nevera_alta_Metallic.dds"
+    ,
+    "roughness": "data/textures/mapa_congelados/nevera_alta_nevera_alta_Roughness.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

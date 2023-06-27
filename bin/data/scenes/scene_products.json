@@ -1,0 +1,337 @@
+[
+  {
+    "entity":
+    {
+      "name": "jellyJar002"
+      ,
+      "transform":
+      {
+        "pos": "-60.0985 -2.5905e-06 -59.2637"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "abs_aabb": {}
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/scene_products/scene_products_jellyJar002.mesh"
+        ,
+        "color": "0.341176 0.882353 0.776471 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/scene_products/group1mat.material"
+        ]
+      }
+    }
+  }
+  ,
+  {
+    "entity":
+    {
+      "name": "ketchupBottle01"
+      ,
+      "transform":
+      {
+        "pos": "-46.0448 -2.09399e-06 -47.9048"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "abs_aabb": {}
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/scene_products/scene_products_ketchupBottle01.mesh"
+        ,
+        "color": "0.0235294 0.529412 0.0235294 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/scene_products/group1mat.material"
+        ]
+      }
+    }
+  }
+  ,
+  {
+    "entity":
+    {
+      "name": "mayoJar01"
+      ,
+      "transform":
+      {
+        "pos": "-61.9853 -1.2919e-06 -29.5551"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "abs_aabb": {}
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/scene_products/scene_products_mayoJar01.mesh"
+        ,
+        "color": "0.341176 0.882353 0.776471 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/scene_products/group1mat.material"
+        ]
+      }
+    }
+  }
+  ,
+  {
+    "entity":
+    {
+      "name": "jellyJar001"
+      ,
+      "transform":
+      {
+        "pos": "-44.7269 -1.21339e-06 -27.7591"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "abs_aabb": {}
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/scene_products/scene_products_jellyJar001.mesh"
+        ,
+        "color": "0.341176 0.882353 0.776471 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/scene_products/group1mat.material"
+        ]
+      }
+    }
+  }
+  ,
+  {
+    "entity":
+    {
+      "name": "waterBottle01"
+      ,
+      "transform":
+      {
+        "pos": "-24.1304 3.477e-07 -35.6806"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "abs_aabb": {}
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/scene_products/scene_products_waterBottle01.mesh"
+        ,
+        "color": "0.0235294 0.529412 0.0235294 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/scene_products/group1mat.material"
+        ]
+      }
+    }
+  }
+  ,
+  {
+    "entity":
+    {
+      "name": "iceCreamBucket01"
+      ,
+      "transform":
+      {
+        "pos": "62.8665 0.0 2.51189"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "abs_aabb": {}
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/scene_products/scene_products_iceCreamBucket01.mesh"
+        ,
+        "color": "0.898039 0.603922 0.843137 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/scene_products/group4mat.material"
+        ]
+      }
+    }
+  }
+  ,
+  {
+    "entity":
+    {
+      "name": "milkCarton01"
+      ,
+      "transform":
+      {
+        "pos": "25.4004 -1.37397e-06 12.2023"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "abs_aabb": {}
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/scene_products/scene_products_milkCarton01.mesh"
+        ,
+        "color": "0.109804 0.109804 0.694118 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/scene_products/group4mat.material"
+        ]
+      }
+    }
+  }
+  ,
+  {
+    "entity":
+    {
+      "name": "Box002"
+      ,
+      "transform":
+      {
+        "pos": "53.3806 2.10903e-06 26.4316"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "abs_aabb": {}
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/scene_products/scene_products_Box002.mesh"
+        ,
+        "color": "0.345098 0.694118 0.105882 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/scene_products/group4mat.material"
+        ]
+      }
+    }
+  }
+  ,
+  {
+    "entity":
+    {
+      "name": "paquetePapas008"
+      ,
+      "transform":
+      {
+        "pos": "62.0769 2.03713e-06 46.6041"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "abs_aabb": {}
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/scene_products/scene_products_paquetePapas008.mesh"
+        ,
+        "color": "0.890196 0.6 0.6 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/scene_products/group4mat.material"
+        ]
+      }
+    }
+  }
+  ,
+  {
+    "entity":
+    {
+      "name": "queso001"
+      ,
+      "transform":
+      {
+        "pos": "27.5759 1.41642e-06 32.4039"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "abs_aabb": {}
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/scene_products/scene_products_queso001.mesh"
+        ,
+        "color": "0.333333 0.109804 0.694118 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/scene_products/group4mat.material"
+        ]
+      }
+    }
+  }
+  ,
+  {
+    "entity":
+    {
+      "name": "queso002"
+      ,
+      "transform":
+      {
+        "pos": "36.0857 1.35943e-06 47.4632"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "abs_aabb": {}
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/scene_products/scene_products_queso002.mesh"
+        ,
+        "color": "0.333333 0.109804 0.694118 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/scene_products/group4mat.material"
+        ]
+      }
+    }
+  }
+  ,
+  {
+    "entity":
+    {
+      "name": "YogurtBottle001"
+      ,
+      "transform":
+      {
+        "pos": "47.059 2.53769e-06 58.0555"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "abs_aabb": {}
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/scene_products/scene_products_YogurtBottle001.mesh"
+        ,
+        "color": "0.898039 0.65098 0.843137 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/scene_products/group4mat.material"
+        ]
+      }
+    }
+  }
+]

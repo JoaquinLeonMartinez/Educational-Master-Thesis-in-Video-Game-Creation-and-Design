@@ -1,0 +1,10 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/Anti_extintor/AntiExtintor_BaseColor.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "entity":
+    {
+      "name": "testing_fsm",
+      "transform": {},
+      "fsm" :
+      {
+        "file" : "data/fsm/test.fsm",
+        "autoplay" : true
+      },
+      "fsm_player_input" : {}
+    }
+  }
+]

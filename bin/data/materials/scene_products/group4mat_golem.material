@@ -1,0 +1,14 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/scene_products/group4_diffuse.dds"
+    ,
+    "normal": "data/textures/scene_products/group4_normal.dds"
+    ,
+    "metallic": "data/textures/black.dds"
+    ,
+    "roughness": "data/textures/scene_products/group4_roughness.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

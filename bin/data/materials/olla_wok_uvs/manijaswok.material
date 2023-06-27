@@ -1,0 +1,10 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/olla_wok_uvs/olla_wok_forsp_manijas_BaseColor.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

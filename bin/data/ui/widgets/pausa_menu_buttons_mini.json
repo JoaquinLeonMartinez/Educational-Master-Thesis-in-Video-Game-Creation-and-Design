@@ -1,0 +1,74 @@
+{
+	"name" : "pausa_menu_buttons",
+	"alias" :"pausa_menu_buttons_root",
+	"children" : 
+	[
+		{
+			"name" : "pause_buttons",
+			"position" : "620 270",
+			"scale" : "0.7 0.7",
+			"children" :
+			[
+				{
+					"name" : "bt_continue_pause",
+					"alias" : "bt_continue_pause",
+					"position" : "0 70",
+					"type" : "button",
+					"texture" : "data/ui/textures/market/continue.dds",
+					"size" : "260 44",
+					"font_size" : "20 20",
+					"states" : [
+						{
+							"name" : "enabled",
+							"texture" : "data/ui/textures/market/continue.dds"
+						},
+						{
+							"name" : "selected",
+							"texture" : "data/ui/textures/market/boton_continue.dds"
+						}
+					]
+				},
+				{
+					"name" : "bt_restart_pause",
+					"alias" : "bt_restart_pause",
+					"position" : "0 110",
+					"type" : "button",
+					"texture" : "data/ui/textures/market/restart.dds",
+					"font_texture" : "data/ui/textures/font.dds",
+					"size" : "260 44",
+					"font_size" : "20 20",
+					"states" : [
+						{
+							"name" : "enabled",
+							"texture" : "data/ui/textures/market/restart.dds"
+						},
+						{
+							"name" : "selected",
+							"texture" : "data/ui/textures/market/boton_restart.dds"
+						}
+					]
+				},
+				{
+					"name" : "bt_exit_pause",
+					"alias" : "bt_exit_pause",
+					"position" : "0 190",
+					"type" : "button",
+					"texture" : "data/ui/textures/market/quit.dds",
+					"font_texture" : "data/ui/textures/font.dds",
+					"size" : "260 44",
+					"font_size" : "20 20",
+					"states" : [
+						{
+							"name" : "enabled",
+							"texture" : "data/ui/textures/market/quit.dds"
+						},
+						{
+							"name" : "selected",
+							"texture" : "data/ui/textures/market/boton_quit.dds"
+						}
+					]
+				}
+			]
+		}
+	]
+}

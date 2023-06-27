@@ -1,0 +1,23 @@
+[
+  {
+    "entity": {
+      "name": "Boom001",
+      "transform": {
+        "pos": "0 0 0"
+      },
+      "render": {
+        "mesh": "data/meshes/static_objects/boom_text.mesh",
+        "color": "1.0 1.0 1.0 1.0",
+        "materials":
+        [
+          "data/materials/boom.material"
+        ]
+      },
+      "comp_lookat_camera": {},
+      "comp_self_destroy" : {
+				"_isEnabled": true,
+				"_selfDestructDelay": 3.0
+			}
+    }
+  }
+]

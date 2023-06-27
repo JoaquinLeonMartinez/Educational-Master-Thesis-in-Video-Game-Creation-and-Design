@@ -1,0 +1,27 @@
+[
+  {
+    "entity":
+    {
+      "name": "Anti_extintor"
+      ,
+      "transform":
+      {
+        "pos": "0.0 2.38419e-07 0.0"
+        ,
+        "rotation": "-0.650804 -0.475166 -0.470896 -0.359066"
+      }
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/extintor/extintor_Anti_extintor.mesh"
+        ,
+        "color": "0.835294 0.603922 0.898039 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/extintor/material_antiExtintor.material"
+        ]
+      }
+    }
+  }
+]

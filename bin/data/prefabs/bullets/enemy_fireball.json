@@ -1,0 +1,54 @@
+[
+  {
+    "entity": {
+      "name": "Fireball",
+      "transform": {
+        "pos": "0 0 0",
+        "scale": 0.9
+      },
+      "kinematic_bullet": {
+        "_destroyOnCollission": true,
+        "_speed": 9,
+        "_audioOnHit": "event:/Character/Powers/Fire/Fire_Hit_1"
+			},
+			"comp_self_destroy" : {
+				"_isEnabled": true,
+				"_selfDestructDelay": 1.2
+      },
+			"collider":{
+				"shape" : "sphere",
+				"radius": 1.0,
+				"trigger": true,
+				"dynamic": true,
+				"kinematic": true,
+				"group":"enemy_projectile",
+			  "mask":"player"
+			}
+    }
+  },
+  {
+    "entity":
+    {
+      "name": "PointLight"
+      ,
+      "transform":
+      {
+        "pos": "0.0 8.0 0.0"
+      }
+      ,
+      "light_point": {
+        "color": "1.0 0.4 0.0",
+        "intensity" : 0.4,
+        "radius" :  15
+      },
+      "abs_aabb":{},
+      "local_aabb":{},
+      "hierarchy":
+      {
+        "pos": "0 0 0"
+        ,
+        "parent": "Fireball"
+      }
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "entity": {
+      "name": "Fake_sCart_follower",
+      "transform": {
+        "pos": "0 0 0"
+      },
+      "render": {
+        "mesh": "data/meshes/weapons/Principal_carrito.mesh",
+        "color": "1.0 1.0 1.0 1.0"
+      }
+    }
+  }
+]

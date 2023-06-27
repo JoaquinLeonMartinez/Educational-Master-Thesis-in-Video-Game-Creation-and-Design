@@ -1,0 +1,66 @@
+[
+{
+    "entity":
+    {
+      "name": "blade_trap",
+	  
+
+		"render":	{
+        "mesh": "data/meshes/Charco_lejia.mesh"
+        ,
+        "color": "0.529412 1 0.565656 1.0"
+        ,
+       "materials":
+        [
+          "data/materials/abanico_m2.material"
+          
+        ]
+      },
+      "transform":
+      {
+        "pos": "0 0 0"
+      },
+     
+      "collider":
+      {
+          "shapes":
+          [
+			
+            {
+              "shape": "box"
+              ,
+              "half_size": "0.2 0.2 5"
+              ,
+              "offset":
+              {
+                "pos": "0.0 0.5 3.3"
+              }
+              ,
+              "trigger": false,
+              "group":"scenario"
+            }
+          ]
+		  ,
+			
+			"dynamic" : true,
+			"kinematic": true
+      },
+      "comp_blade_trap":{
+      },
+	  
+	  
+	  "ai_platform_mobile":
+      {
+        "mTravelTime_": 200
+        ,
+        "curve": "data/curves/Line001.curve"
+        ,
+        "active": false
+        ,
+        "platformType_": 6
+      },
+	  
+      "tags" : ["enemy", "scenario"]
+    }
+}
+]

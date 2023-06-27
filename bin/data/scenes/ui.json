@@ -1,0 +1,31 @@
+[
+
+  {
+    "entity":
+    {
+      "name": "Mirilla"
+      ,
+      "transform":
+      {
+        "pos": "1.0 0.5 0"
+        ,
+        "rotation": "0.0 0.0 0.0 1.0"
+        , 
+        "scale" : 0.04
+      }
+      ,
+      "render":
+      {
+        "is_visible": false,
+        "mesh": "unit_plane_xy.mesh"
+        ,
+        "color": "0.2 0.9 0.9 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/ui_logo.material"
+        ]
+      }
+    }
+  }
+]

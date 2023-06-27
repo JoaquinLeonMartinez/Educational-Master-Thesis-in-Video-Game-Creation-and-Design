@@ -1,0 +1,27 @@
+[
+  {
+    "entity":
+    {
+      "name": "cart_001"
+      ,
+      "transform":
+      {
+        "pos": "-0.00418568 0.725032 -0.0925004"
+        ,
+        "rotation": "0.0 0.0 -0.707107 -0.707107"
+      }
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/carrito01/carrito01_cart_001.mesh"
+        ,
+        "color": "0.105882 0.694118 0.345098 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/carrito01/supermarket_cart_material.material"
+        ]
+      }
+    }
+  }
+]

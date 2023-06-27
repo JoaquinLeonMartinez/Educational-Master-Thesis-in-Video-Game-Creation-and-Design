@@ -1,0 +1,12 @@
+{
+  "name": "oven",
+  "anims": [
+    { "name": "OVEN_IDLE" },
+    { "name": "OVEN_OPEN" }
+  ],
+  "bone_ids_to_debug": [
+  ],
+  "meshes": [
+    "ovenMesh"
+  ]
+}

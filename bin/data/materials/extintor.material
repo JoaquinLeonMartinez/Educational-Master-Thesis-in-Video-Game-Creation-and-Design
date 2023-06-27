@@ -1,0 +1,9 @@
+{
+  "technique" : "power_up.tech",
+  "textures":
+  {
+    "albedo": "data/textures/Principal_anim2_04/AntiExtintor_BaseColor.dds"
+    ,
+    "normal": "data/textures/Principal_anim2_04/AntiExtintor_BaseColor.dds"
+  }
+}

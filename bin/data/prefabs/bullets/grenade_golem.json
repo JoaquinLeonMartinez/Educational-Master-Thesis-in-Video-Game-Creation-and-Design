@@ -1,0 +1,39 @@
+[
+	{
+		"entity" : {
+			"transform" : {
+        		"pos": "0 1 0",
+				"scale" : 1
+			},		
+			"name" : "grenade",
+			"collider":{
+				"shape" : "sphere",
+				"radius": 0.5,
+				"dynamic": true,
+				"group": "grenade",
+				"mask":"scenario"
+			},
+			"grenade_golem_controller" : {
+				"speed": 5
+			},
+      		"render" : {
+       			"mesh": "data/meshes/cupcake_eneano.mesh"
+        		,
+        		"color": "0.345098 0.780392 0.882353 1.0"
+        		,
+       			 "materials":
+       			[
+          			"data/materials/cupcakebody.material"
+          			,
+          			"data/materials/cupcakeeyebrows.material"
+        		]
+      		},
+			"comp_checkpoint_register":{
+			  "prefab": "data/prefabs/bullets/grenade_golem.json",
+			  "entityTypeString": "GRENADE_GOLEM"
+			},
+			"tags" : ["bullet"]
+      	}
+	}
+]
+

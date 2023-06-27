@@ -1,0 +1,25 @@
+[
+	{
+		"entity" : {
+			"transform" : {
+				"pos" : "-5 4 0",
+        		"lookat" : "0 0 0"
+			},		
+			"name" : "PlayerCameraAim",
+      		"culling": {},
+			"camera" : {
+			},
+			"camera_3rd_person_aim" : {
+				"target" : "Player",
+		      	"curve" : "data/curves/camera_3rd_person_aim.curve",
+		      	"ratio" : 0.5,
+		      	"targetOffset" : "0 2.1 0",
+		      	"pitchSensitivity" : 2,
+		      	"yawSensitivity" : 5
+			},
+			"parabolic_launch" : {
+				"velocity": 20.0
+			}
+		}
+	}
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "entity":
+    {
+      "name": "Lampara"
+      ,
+      "transform":
+      {
+        "pos": "0.0 0.0 0.0"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/LAMPARA_PALITOS/LAMPARA_PALITOS_Lampara.mesh"
+        ,
+        "color": "0.694118 0.105882 0.345098 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/LAMPARA_PALITOS/mat_lampara_med.material"
+          ,
+          "data/materials/LAMPARA_PALITOS/negro.material"
+        ]
+      }
+    }
+  }
+]

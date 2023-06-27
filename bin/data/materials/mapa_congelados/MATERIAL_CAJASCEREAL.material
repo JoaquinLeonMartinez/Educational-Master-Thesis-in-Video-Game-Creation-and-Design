@@ -1,0 +1,14 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/mapa_congelados/CAJASCEREAL_BaseColor.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+    ,
+    "metallic": "data/textures/black.dds"
+    ,
+    "roughness": "data/textures/white.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

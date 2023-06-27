@@ -1,0 +1,43 @@
+[
+	{
+		"entity":
+		{
+		  "name": "triggerSpecialOven"
+		  ,
+		  "transform":
+		  {
+			"pos": "0 0 0"
+			,
+			"rotation": "0.0 0.0 0.0 -1.0"
+		  }
+		  ,
+		  "collider":
+		  {
+			"shapes":
+			[
+			  {
+				"shape": "box"
+				,
+				"half_size": "5 5 13"
+				,
+				"offset":
+				{
+				  "pos": "0.0 2.67147 0.0"
+				}
+				,
+				"group": "trigger"
+				,
+				"trigger": true
+			  }
+			]
+		  }
+		  ,
+		  "trigger":
+		  {
+			"onEnter": "on_init_trap_oven"
+			,
+			"delay": 0
+		  }
+		}
+	}
+]

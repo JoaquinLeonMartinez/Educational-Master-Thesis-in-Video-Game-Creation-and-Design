@@ -1,0 +1,11 @@
+{
+  "technique" : "power_up.tech",
+  "textures":
+  {
+    "albedo": "data/textures/energizante_uvs/energizante_forsp_DefaultMaterial_BaseColor.dds"
+    ,
+    "normal": "data/textures/energizante_uvs/energizante_forsp_DefaultMaterial_Normal.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

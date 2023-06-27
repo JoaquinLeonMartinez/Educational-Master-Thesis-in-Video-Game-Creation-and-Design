@@ -1,0 +1,48 @@
+[
+{
+    "entity":
+    {
+      "name": "termostato",
+			"render" : {
+        "mesh": "data/meshes/prefabs/termostato2_termostato_LP.mesh",
+
+        "materials":
+        [
+          "data/materials/mat_termostato.material"
+        ]
+			},
+      "transform":
+      {
+        "scale": 2.5
+        ,
+        "pos": "0 0 0"
+      },
+      "abs_aabb" : {},
+      "collider":
+      {
+          "shapes":
+          [
+            {
+              "shape": "box"
+              ,
+              "half_size": "0.32 0.22 0.05"
+              ,
+              "offset":
+              {
+                "pos": "0.1 0.0 0.05"
+              }
+              ,
+              "group":"spawner"
+            }
+          ]
+		  ,
+		  "dynamic": true,
+		  "kinematic":true
+		  
+		 
+      },
+	  "comp_termoestato":{},
+      "tags" : ["enemy", "scenario"]
+    }
+}
+]

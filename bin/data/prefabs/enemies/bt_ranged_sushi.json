@@ -1,0 +1,86 @@
+[
+	{
+		"entity": {
+			"transform": {
+				"pos": "0 0 0",
+				"scale": 1.0
+			},
+			"name": "Ranged_Sushi_0",
+			"render": {
+				"mesh": "data/skeletons/ourSushi/ourSushi.mesh",
+				"color": "1.0 1.0 1.0 1.0",
+				"material": "data/materials/suhiMaterial.material"
+			},
+			"armature": {
+				"_unscaledTime": false,
+				"src": "data/skeletons/ourSushi/ourSushi.skeleton"
+			},
+			"sushi_animator": {},
+			"local_aabb": {},
+			"abs_aabb": {},
+			"bt_ranged_sushi": {
+				"_initiallyPaused":false,
+				"curve" : "data/curves/Line002.curve",
+				"use_navmesh": true,
+				"halfCone": 45.0,
+				"hearingRadius": 10.0,
+				"combatViewDistance": 50.0,
+				"viewDistance": 30.0,
+				"life": 200,
+				"patrolSpeed": 1.0,
+				"chaseSpeed": 7.5,
+				"rotationSpeed": 170.0,
+				"damageStunDuration": 0.15,
+				"damageStunBackwardsSpeed": 2.5,
+				"distanceCheckThreshold": 0.7,
+				"randomDelay": 2.0,
+				"meleeComboProbability": 33,
+				"melee1Damage": 10.0,
+				"melee2Damage": 10.0,
+				"melee3Damage": 20.0,
+				"meleeDistance": 1.5,
+				"meleeDelay": 1.7,
+				"chargeProbability": 10,
+				"chargeSpeed": 25.0,
+				"chargeDamage": 20.0,
+				"chargeDelay": 2.0,
+				"chargeDuration": 1.2,
+				"jumpChargeProbability": 10,
+				"jumpSpeed": 4.0,
+				"jumpHeight": 4.0,
+				"jumpChargeSpeed": 6.0,
+				"jumpChargeDamage": 20.0,
+				"saluteProbability": 30,
+				"saluteDuration": 2.0,
+				"blockProbability": 25,
+				"blockDuration": 2.0,
+				"_orbitProbability": 90,
+				"_orbitSpeed": 3.5,
+				"_frontalSpeed": 1.0,
+				"_orbitDistance": 15.0,
+				"_fearSpeed": 5.5,
+				"_fearDuration": 2.0
+			},
+			"collider": {
+				"shape": "capsule",
+				"controller": true,
+				"radius": 0.5,
+				"height": 0.8,
+				"group": "sushi",
+				"mask": "all"
+			},
+			"rigidbody": {},
+			"comp_checkpoint_register":{
+			  "prefab": "data/prefabs/enemies/bt_ranged_sushi.json",
+			  "entityTypeString": "RANGED_SUSHI"
+			},
+			"comp_self_destroy":{
+				"_selfDestructDelay" : 0,
+				"_isEnabled" : false	
+			},
+			"tags": [
+				"enemy","sushi"
+			]
+		}
+	}
+]

@@ -1,0 +1,13 @@
+[
+	{
+		"entity" : {
+			"transform" : {
+				"pos" : "0 0 0"
+			},		
+			"name" : "TeleportCamera",
+      		"culling": {},
+			"camera" : {},
+			"removable_camera":{}
+		}
+	}
+]

@@ -1,0 +1,30 @@
+{
+  "name": "ourSushi",
+  "anims": [
+    { "name": "idle_loop" },
+    { "name": "wakeup" },
+    { "name": "attack1" },
+    { "name": "attack2" },
+    { "name": "attack3" },
+    { "name": "block_loop" },
+    { "name": "jump_start" },
+    { "name": "jump_loop" },
+    { "name": "jump_end" },
+    { "name": "jumpCharge_start" },
+    { "name": "jumpCharge_loop" },
+    { "name": "jumpCharge_end" },
+    { "name": "throw_air" },
+    { "name": "throw_land2" },
+    { "name": "BLOCK_BREAK" },
+    { "name": "BLOCK_HIT" },
+    { "name": "DAMAGED" },
+    { "name": "DEAD" },
+    { "name": "GET_UP" },
+    { "name": "walk_loop" }
+  ],
+  "bone_ids_to_debug": [
+  ],
+  "meshes": [
+    "ourSushi"
+  ]
+}

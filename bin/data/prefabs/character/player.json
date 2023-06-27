@@ -1,0 +1,55 @@
+[
+  {
+    "entity": {
+      "transform": {
+        "pos": "0 0 0"
+      },
+      "name": "Player",
+      "collider": {
+        "shape": "capsule",
+        "controller": true,
+        "radius": 0.4,
+        "height": 1.4,
+        "group": "player",
+        "mask": "not_weapon"
+      },
+      "render": {
+        "mesh": "data/skeletons/ourPlayer2/ourPlayer2.mesh",
+        "material": "data/materials/player_material.material",
+        "color": "1.0 1.0 1.0 1.0"
+      },
+      "rigidbody": {},
+      "player_animator": {},
+      "armature": {
+        "_unscaledTime": true,
+        "src": "data/skeletons/ourPlayer2/ourPlayer2.skeleton"
+      },
+      "skel_lookat_direction":{
+        "target": "0 0 5",
+        "amount":0
+      },
+      "comp_checkpoint_register":{
+        "prefab": "data/prefabs/character/player.json",
+        "entityTypeString": "PLAYER"
+      },
+      "character_controller": {
+        "distance_to_aim": 40.0,
+        "life": 100.0
+      },
+      "tags": [
+        "player"
+      ],
+      "comp_blackboard": {},
+      "comp_madness": {},
+      "comp_coffee": {},
+      "comp_teleport": {},
+      "comp_fire": {},
+      "sCart_controller": {},
+      "msg_logger": true,
+	    "skel_lookat": {
+		      "target": "0 0 5",
+          "amount":0
+	    } 
+    }
+  }
+]

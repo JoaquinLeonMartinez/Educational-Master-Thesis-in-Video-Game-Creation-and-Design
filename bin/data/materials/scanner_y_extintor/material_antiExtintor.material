@@ -1,0 +1,8 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/AntiExtintor.dds"
+    ,
+    "normal": "data/textures/AntiExtintor.dds"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/mapa_congelados/panel_ascensor_palanca_panel_BaseColor.dds"
+    ,
+    "normal": "data/textures/mapa_congelados/panel_ascensor_palanca_panel_Normal.dds"
+    ,
+    "metallic": "data/textures/mapa_congelados/panel_ascensor_palanca_panel_Metallic.dds"
+    ,
+    "roughness": "data/textures/mapa_congelados/panel_ascensor_palanca_panel_Roughness.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

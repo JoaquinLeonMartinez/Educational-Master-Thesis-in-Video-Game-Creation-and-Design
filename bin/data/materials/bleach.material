@@ -1,0 +1,8 @@
+{
+  "technique" : "bleach.tech",
+  "casts_shadows" : false,
+  "textures":
+  {
+    "albedo": "data/textures/toon_fluid.dds"
+  }
+}

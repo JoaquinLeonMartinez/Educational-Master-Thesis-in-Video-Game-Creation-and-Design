@@ -1,0 +1,18 @@
+[
+	{
+		"entity" : {
+			"transform" : {
+        		"pos": "0 0 1",
+        		"scale" : 0.1
+			},		
+			"name" : "bullet",
+			"render" : {
+				"color" : "1 0 0 1"
+			},
+			"bullet_controller" : {
+				"speed": 5
+			}
+		}
+	}
+]
+

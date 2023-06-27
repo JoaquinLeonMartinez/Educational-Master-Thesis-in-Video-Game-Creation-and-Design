@@ -1,0 +1,84 @@
+{
+	"name": "ourPlayer",
+	"anims": [
+		{
+			"name": "idle"
+		},
+		{
+			"name": "run"
+		},
+		{
+			"name": "attack"
+		},
+		{
+			"name": "jump"
+		},
+		{
+			"name": "throw"
+		},
+		{
+			"name": "scan"
+		}
+	],
+  	"bone_ids_to_debug" : [
+  	],
+  	"meshes": [
+      "playerMesh"
+    ],
+  "lookat_corrections": [
+    
+    {
+      "bone": "Bip001 Head",
+      "local_axis_to_correct": "0 1 0",
+      "amount": 1.0
+    }
+  ],
+  
+	"lookat_direction_corrections": [
+		{
+			"bone": "Bip001 Spine",
+			"local_axis_to_correct": "0 0 1",
+			"amount": 0.1
+		},
+		{
+			"bone": "Bip001 L Thigh",
+			"local_axis_to_correct": "0 0 1",
+			"amount": 0.2
+		},
+		{
+			"bone": "Bip001 L Calf",
+			"local_axis_to_correct": "0 0 1",
+			"amount": 0.3
+		},
+		{
+			"bone": "Bip001 L Foot",
+			"local_axis_to_correct": "0 0 1",
+			"amount": 1.0
+		},
+		{
+			"bone": "Bip001 L Toe0",
+			"local_axis_to_correct": "0 0 1",
+			"amount": 1.0
+		},
+		{
+			"bone": "Bip001 R Thigh",
+			"local_axis_to_correct": "0 0 1",
+			"amount": 0.2
+		},
+		{
+			"bone": "Bip001 R Calf",
+			"local_axis_to_correct": "0 0 1",
+			"amount": 0.3
+		},
+		{
+			"bone": "Bip001 R Foot",
+			"local_axis_to_correct": "0 0 1",
+			"amount": 1.0
+		},
+		{
+			"bone": "Bip001 R Toe0",
+			"local_axis_to_correct": "0 0 1",
+			"amount": 1.0
+		}
+	]
+}

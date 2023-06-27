@@ -1,0 +1,25 @@
+[
+	{
+		"entity" : {
+			"transform" : {
+        		"pos": "0 0 1",
+        		"scale" : 0.1
+			},		
+			"name" : "shrapnel",
+			"render" : {
+				"color" : "1 0 0 1"
+			},
+			"collider":{
+				"shape" : "sphere",
+				"radius": 2,
+				"dynamic": true,
+				"density": 1.0
+			},
+			"shrapnel_controller" : {
+				"speed": 5
+			}
+			"tags" : ["shrapnel"]
+		}
+	}
+]
+

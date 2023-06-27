@@ -1,0 +1,38 @@
+[
+  {
+    "entity": {
+      "transform": {
+        "pos": "0 0 0"
+      },
+      "name": "player",
+      "collider": {
+        "shape": "capsule",
+        "controller": true,
+        "radius": 0.5,
+        "height": 2.0,
+        "group" : "player"
+      },
+      "xcharacter_controller": {
+
+      },
+      "armature": {
+        "src": "data/skeletons/mutant/mutant.skeleton"
+      },
+      "skel_lookat": {
+        "amount":1
+      },
+      "ragdoll": {
+      },
+      "render": {
+        "mesh": "data/skeletons/mutant/mutant.mesh",
+        "material": "data/skeletons/mutant/mutant.material",
+        "color": "0.603922 0.603922 0.898039 1.0"
+      },
+      "msg_logger": true,
+      "camera": {
+        "near" : 1,
+        "far" : 5
+      }
+    }
+  }
+]

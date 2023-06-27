@@ -1,0 +1,8 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/MAT_LEJIA.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+  }
+}

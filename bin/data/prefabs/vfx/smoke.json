@@ -1,0 +1,26 @@
+[
+  {
+    "entity": {
+      "name": "SmokeDust",
+      "transform": {
+        "pos": "0 -0.25 0",
+        "scale": 0.35
+      },
+      "render": {
+        "mesh": "data/meshes/static_objects/smoke.mesh",
+        "color": "0.36 0.36 0.36 1.0",
+        "materials":
+        [
+          "data/materials/vfx/smoke.material"
+        ]
+      },
+      "dust":{},
+      "buffers" : {
+        "TCtesSmokeDust" : {
+          "total_bytes" : 16,
+          "slot" : 13
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "entity":
+    {
+      "name": "particles",
+      "transform": {
+        "pos" :  "0 10 0"
+      },
+      "particles" :
+      {
+        "file" : "data/particles/fire.particles"
+      }
+    }
+  },
+  {
+    "entity":
+    {
+      "name": "glow",
+      "transform": {
+        "pos" :  "10 10 0"
+      },
+      "particles" :
+      {
+        "file" : "data/particles/glow.particles"
+      }
+    }
+  },
+  {
+    "entity":
+    {
+      "name": "glow",
+      "transform": {
+        "pos" :  "10 10 10"
+      },
+      "particles" :
+      {
+        "file" : "data/particles/glow.particles"
+      }
+    }
+  },
+  {
+    "entity":
+    {
+      "name": "sparks",
+      "transform": {
+        "pos" :  "-10 10 0"
+      },
+      "particles" :
+      {
+        "file" : "data/particles/sparks.particles"
+      }
+    }
+  },
+  {
+    "entity":
+    {
+      "name": "sparks",
+      "transform": {
+        "pos" :  "-10 10 10"
+      },
+      "particles" :
+      {
+        "file" : "data/particles/sparks.particles"
+      }
+    }
+  }
+]

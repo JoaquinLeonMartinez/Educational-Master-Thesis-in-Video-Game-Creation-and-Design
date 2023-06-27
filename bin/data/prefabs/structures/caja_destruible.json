@@ -1,0 +1,41 @@
+[
+	{
+		"entity":
+		{
+		  "name": "Box015"
+		  ,
+		  "transform":
+		  {
+			"pos": "0 0 10"
+			,
+			"rotation": "0.0 0.0 0.0 -1.0"
+		  }
+		  ,
+		  "collider":
+		  {
+			"shapes":
+			[
+			  {
+				"shape": "box"
+				,
+				"half_size": "2 3 2"
+				,
+				"offset":
+				{
+				  "pos": "0.0 3 0.0"
+				},
+				"group":"destroyable_wall"
+			  }
+			]
+		  }
+		  ,
+		   "comp_destroyable_wall" :{
+				"type_wall":1
+			}
+			,
+		  "abs_aabb":{},
+		  "local_aabb": {}
+
+		}
+	  }
+]

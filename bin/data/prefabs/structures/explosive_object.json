@@ -1,0 +1,64 @@
+[
+  {
+    "entity": {
+      "name": "Explosive_object",
+      "transform": {
+        "pos": "0 0 0",
+        "rotation": "0.0 0.0 0.0 -1.0"
+      },
+      "local_aabb": {},
+      "abs_aabb": {},
+      "collider": {
+        "shapes": [
+          {
+            "shape": "box",
+            "half_size": "0.15 0.5 0.15",
+            "offset": {
+              "pos": "0.0 0.5 0.0"
+            },
+            "group": "ExplosiveAndTeleportable"
+          },
+          {
+            "shape": "box",
+            "half_size": "4.0 2.3 4.0",
+            "offset": {
+              "pos": "0.0 0.3 0.0"
+            },
+            "trigger": true,
+            "group": "trigger"
+          }
+        ],
+        "dynamic": true
+      },
+      "render": {
+        "color": "1.0 0.0 0.0 1.0",
+        "mesh": "data/meshes/SalsaPicante_Milestone2_Salsa_picante.mesh"
+        ,
+        "materials":
+        [
+          "data/materials/obj_explosivo_Material.material"
+        ]
+      },
+      "comp_explosive_object": {
+        "_isEnabled": false,
+        "_explosionDelay": 3.0,
+        "_fireAreaDuration": 7.0,
+        "_explosionRadius": 6.0,
+        "_explosionDamage": 20.0,
+        "_explosionForce": 20.0
+      },
+      "comp_self_destroy": {
+        "_isEnabled": false,
+        "_selfDestructDelay": 5.0
+      },
+			"comp_checkpoint_register":{
+			  "prefab": "data/prefabs/structures/explosive_object.json",
+			  "entityTypeString": "EXPLOSIVE_OBJECT"
+			},
+      "tags": [
+        "enemy",
+        "teleportable_obj"
+      ]
+    }
+  }
+]

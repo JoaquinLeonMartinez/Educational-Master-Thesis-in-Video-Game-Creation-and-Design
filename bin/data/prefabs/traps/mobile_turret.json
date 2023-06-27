@@ -1,0 +1,49 @@
+[
+	{
+		"entity" : {
+			"transform" : {
+				"pos" : "5 0 5",
+				"scale": 1.0
+			},		
+			"name" : "Trap",
+			"render" : {
+				"color" : "0 0 1 1"
+			},
+			"ai_turret": {
+			"halfCone": 60,
+			"lengthCone": 100,
+			"hearingRadius": 3,
+			"life": 100,
+			"isFixed": false
+
+			},
+			"collider" : {
+				"shapes": [
+		          {
+		            "shape": "box",
+		            "half_size": "2.5 2.0 2.5",
+		            "offset": {
+		              "pos": "0.0 0.0 0.0"
+		            },
+		            "group": "scenario"
+		          },
+		          {
+		            "shape": "box",
+		            "half_size": "1.0 1.5 1.0",
+		            "offset": {
+		              "pos": "3.0 0.0 0.0"
+		            },
+		            "group": "enemy"
+		          }
+				]
+
+			},
+			 "render":
+     		 {
+       			 "color": "1.0 1.0 1.0 1.0",
+       			 "mesh": "data/meshes/Olla.mesh"
+     	 	},
+			"tags" : ["enemy"]
+		}
+	}
+]

@@ -1,0 +1,65 @@
+[  
+  {
+    "entity":
+    {
+      "name": "Wall1"
+      ,
+      "id": 1
+      ,
+      "transform":
+      {
+        "pos": "12 0 -20"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "collider":
+      {
+        "shapes":
+        [
+          {
+            "shape": "box"
+            ,
+            "half_size": "1.0 1.0 1.0"
+            ,
+            "offset":
+            {
+              "pos": "0.0 0.5 0.0"
+            }
+            ,
+            "density": 20000,
+			"group":"scenario"
+          }
+        ]
+  		,"dynamic" : true,
+        "kinematic": true,
+	    "platform" : true
+		
+  		
+  		
+      },
+      "render":
+      {
+        "mesh": "data/meshes/Charco_lejia.mesh"
+        ,
+        "color": "0.529412 1 0.565656 1.0"
+        ,
+       "materials":
+        [
+          "data/materials/mapa.material"
+          
+        ]
+      },
+	  
+	  "ai_platform_mobile": {
+			"mRotationTime_" : 2,
+			"platformType_" : 5,
+			"direction" : -1,
+			"axis" : "1 0 1",
+			"curve" : "data/curves/prueba_plataforma.curve"
+		},
+
+		"tags" : ["scenario"]	
+    }
+  }
+ ]

@@ -1,0 +1,50 @@
+[
+{
+    "entity":
+    {
+      "name": "enemy_spawner_special",
+			"render" : {
+        "mesh": "data/skeletons/oven/ovenMesh.mesh"
+        ,
+        "material": "data/skeletons/oven/ovenMaterial.material"
+			},
+      "transform":
+      {
+        "pos": "0 0 0"
+      },
+      "abs_aabb" : {},
+			"armature": {
+				"_unscaledTime": false,
+				"src": "data/skeletons/oven/oven.skeleton"
+			},
+			"prop_animator": {},
+      "collider":
+      {
+          "shapes":
+          [
+            {
+              "shape": "box"
+              ,
+              "half_size": "2.5 2.5 2.5"
+              ,
+              "offset":
+              {
+                "pos": "0.0 1.5 0.0"
+              }
+              ,
+              "trigger": false,
+              "group":"spawner"
+            }
+          ]
+      },
+      "comp_enemy_spawner_special_trap":{
+        "_prefab": "data/prefabs/enemies/bt_cupcake.json"
+      },
+		"comp_checkpoint_register":{
+		  "prefab": "data/prefabs/structures/enemy_spawner_special.json",
+		  "entityTypeString": "CUPCAKE_SPAWNER_SPECIAL"
+		},
+      "tags" : ["enemy", "scenario"]
+    }
+}
+]

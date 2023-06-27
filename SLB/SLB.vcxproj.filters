@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de origen\include">
+      <UniqueIdentifier>{14205bee-3954-4e61-846a-7edec7f71ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\src">
+      <UniqueIdentifier>{c26c5984-dc61-4510-a304-ff99cabd240e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\include\SLB">
+      <UniqueIdentifier>{e4525af2-02a8-42dc-888b-b26698d5fda2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\include\SLB\lua">
+      <UniqueIdentifier>{f3163bb9-2fa7-4e7a-8f91-4c0d36375daf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\SLB\include\SLB\lua\luaconf.h">
+      <Filter>Archivos de origen\include\SLB\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\lua\lualib.h">
+      <Filter>Archivos de origen\include\SLB\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\lua\lauxlib.h">
+      <Filter>Archivos de origen\include\SLB\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\lua\lua.h">
+      <Filter>Archivos de origen\include\SLB\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\String.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\Table.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\Type.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\TypeInfoWrapper.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\util.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\Value.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\Allocator.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\Class.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\ClassHelpers.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\ClassInfo.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\Conversor.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\Debug.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\Error.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\Export.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\FuncCall.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\FuncCall_inline.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\Hybrid.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\Instance.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\Iterator.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\lua.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\LuaCall.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\Manager.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\Mutex.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\Object.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\Private_FuncCall.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\Property.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\PushGet.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\ref_ptr.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\Script.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\SLB.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\SPP.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SLB\include\SLB\StatefulHybrid.hpp">
+      <Filter>Archivos de origen\include\SLB</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\SLB\src\Manager.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SLB\src\Object.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SLB\src\Property.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SLB\src\Script.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SLB\src\SLB.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SLB\src\Table.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SLB\src\Type.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SLB\src\Value.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SLB\src\Allocator.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SLB\src\Class.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SLB\src\ClassHelpers.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SLB\src\ClassInfo.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SLB\src\Debug.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SLB\src\Error.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SLB\src\FuncCall.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SLB\src\Hybrid.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SLB\src\Instance.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SLB\src\Iterator.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SLB\src\LuaCall.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SLB\src\lua.c">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+[
+	{
+    "entity" : {
+	  "name": "Inventory",
+      "transform" : {
+        "pos" : "0 0 0",
+        "scale": 1.0
+	  }
+	  ,
+	  "comp_inventory": {
+		"battery": true,
+		"teleport": true,
+		"chilli": false,
+		"coffe": false
+	  }
+	}
+	}
+]
+

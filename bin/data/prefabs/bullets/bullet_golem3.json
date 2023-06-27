@@ -1,0 +1,42 @@
+[
+	{
+		"entity" : {
+			"name" : "bullet_golem1",
+			"render" : {
+				"mesh": "data/meshes/scene_products/scene_products_mayoJar01.mesh",
+				"color": "0.603922 0.603922 0.898039 1.0"
+				        ,
+		        "materials":
+		        [
+		          "data/materials/scene_products/group1mat_golem.material"
+		        ]
+			},
+			"transform" : {
+        		"pos": "0 0 0",
+        		"scale": 3
+			},		
+			"turret_bullet_golem_controller": {
+				"_audioOnHit": "event:/Enemies/Golem/Golem_ProjectileHit"
+
+			},
+			"comp_self_destroy" : {
+				"_isEnabled": true,
+				"_selfDestructDelay": 20.0
+			},
+			"collider":{
+				"shape" : "box",
+				"half_size": "0.2 0.05 0.2",
+				 "offset":
+				{
+					"pos": "0.0 0.05 0.0"
+				},
+				"trigger": true,
+				"dynamic": true,
+				"kinematic": true,
+				"group":"enemy_projectile",
+			    "mask":"proyectile_enemy"
+			}
+		}
+	}
+]
+

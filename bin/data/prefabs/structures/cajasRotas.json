@@ -1,0 +1,144 @@
+[  
+  {
+    "entity":
+    {
+      "name": "TrozoCaja1"
+      ,
+      "transform":
+      {
+        "pos": "0 0 0"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "collider":
+      {
+        "shapes":
+        [
+          {
+            "shape": "box"
+            ,
+            "half_size": "1.5 0.5 1.0"
+            ,
+            "offset":
+            {
+              "pos": "0.0 0.5 0.0"
+            }
+          }
+        ]
+        ,
+        "dynamic": true
+      },
+	  
+	  "abs_aabb":{},
+	  "local_aabb": {},
+	  "render":
+			{
+			"mesh": "data/meshes/products/product1.mesh"
+			,
+			"color": "0.603922 0.603922 0.898039 1.0"
+			,
+			"materials":
+			[
+			  "data/materials/products/mat_prod1.material"
+			]
+		  }
+    }
+  }
+  ,
+  {
+	
+	"entity":
+    {
+      "name": "TrozoCaja2"
+      ,
+      "transform":
+      {
+        "pos": "0 1 0"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "collider":
+      {
+        "shapes":
+        [
+          {
+            "shape": "box"
+            ,
+            "half_size": "1.5 0.5 1.0"
+            ,
+            "offset":
+            {
+              "pos": "0.0 0.5 0.0"
+            }
+          }
+        ]
+        ,
+        "dynamic": true
+      },
+	  "abs_aabb":{},
+	  "local_aabb": {},
+	  "render":
+			{
+			"mesh": "data/meshes/products/product1.mesh"
+			,
+			"color": "0.603922 0.603922 0.898039 1.0"
+			,
+			"materials":
+			[
+			  "data/materials/products/mat_prod1.material"
+			]
+		  }
+			
+    }
+	}
+	,
+	
+  {
+	
+	"entity":
+    {
+      "name": "TrozoCaja3"
+      ,
+      "transform":
+      {
+        "pos": "0 2 0"
+        ,
+        "rotation": "0.0 0.0 0.0 -1.0"
+      }
+      ,
+      "collider":
+      {
+        "shapes":
+        [
+          {
+            "shape": "box"
+            ,
+            "half_size": "1.5 0.5 1.0"
+            ,
+            "offset":
+            {
+              "pos": "0.0 0.5 0.0"
+            }
+          }
+        ]
+        ,
+        "dynamic": true
+      },
+	  "abs_aabb":{},
+	  "local_aabb": {},
+	  "render":
+			{
+			"mesh": "data/meshes/products/product1.mesh"
+			,
+			"color": "0.603922 0.603922 0.898039 1.0"
+			,
+			"materials":
+			[
+			  "data/materials/products/mat_prod1.material"
+			]
+		  }
+    }
+	}
+ ]

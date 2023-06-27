@@ -1,0 +1,8 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/texturaTermometro.dds"
+    ,
+    "normal": "data/textures/texturaTermometro.dds"
+  }
+}

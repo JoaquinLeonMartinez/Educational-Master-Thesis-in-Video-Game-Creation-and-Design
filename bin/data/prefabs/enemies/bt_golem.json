@@ -1,0 +1,48 @@
+[
+	{
+		"entity": {
+			"transform": {
+				"pos": "0 0 0"
+			},
+			"name": "Golem000",
+			"collider": {
+				"shape": "capsule",
+				"controller": true,
+				"radius": 2.5,
+				"height": 0.8,
+				"group": "golem",
+				"mask": "all"
+			},
+			"render": {
+			"mesh": "data/skeletons/golem1/golem1.mesh",
+			"color": "1.0 1.0 1.0 1.0",
+			"material": "data/materials/golem_material/Material_golem.material"
+			},
+			"rigidbody": {},
+			"armature": {
+				"_unscaledTime": false,
+				"src": "data/skeletons/golem1/golem1.skeleton"
+			},
+			"local_aabb": {},
+			"abs_aabb": {},
+			"golem_animator": {},
+			"comp_checkpoint_register":{
+			  "prefab": "data/prefabs/enemies/bt_golem.json",
+			  "entityTypeString": "GOLEM"
+			},
+			"bt_golem": {
+			},
+			"bone_tracker_golem":{
+				"bone":"antebrazo_izq",
+				"parent":"golem"
+			},
+			 "comp_self_destroy":{
+				"_selfDestructDelay" : 0,
+				"_isEnabled" : false
+			},
+			"tags": [
+				"enemy","golem"
+			]
+		}
+	}
+]

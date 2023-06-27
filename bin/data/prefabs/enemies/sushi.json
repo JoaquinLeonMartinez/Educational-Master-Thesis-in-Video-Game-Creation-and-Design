@@ -1,0 +1,77 @@
+[
+	{
+		"entity" : {
+			"transform" : {
+				"pos" : "20 0 0"
+			},		
+			"name" : "Sushi000",
+			"render" : {
+				"mesh": "data/skeletons/sushi/sushiMesh.mesh",
+		        "materials":
+		        [
+		          "data/materials/mapa.material"
+		        ]
+			},
+			"ai_sushi": {
+				"nWaypoints": 3,
+				"waypoints": [
+					"5 0 5",
+					"0 0 0",
+					"5 0 -5"
+				],
+
+				"halfCone": 45.0,
+				"hearingRadius": 10.0,
+				"combatViewDistance": 50.0,
+				"viewDistance": 30.0,
+
+				"life": 300,
+				"patrolSpeed": 1.0,
+				"chaseSpeed": 4.5,
+				"rotationSpeed": 90.0,
+				"damageStunDuration": 0.3,
+				"damageStunBackwardsSpeed": 2.5,
+				"distanceCheckThreshold": 0.7,
+
+				"meleeComboProbability": 33.0,
+				"melee1Damage": 15.0,
+				"melee2Damage": 15.0,
+				"melee3Damage": 20.0,
+				"meleeDistance": 1.5,
+				"meleeDelay": 1.7,
+				"meleeComboDelayReducedFactor": 0.5,
+
+				"chargeProbability": 15,
+				"chargeSpeed": 23.0,
+				"chargeDamage": 20.0,
+				"chargeDelay": 2.0,
+				"chargeDuration": 1,
+
+				"jumpChargeProbability": 10,
+				"jumpSpeed": 3.5,
+				"jumpHeight": 4.0,
+				"jumpChargeSpeed": 6.0,
+				"jumpChargeDamage": 20.0,
+
+				"saluteProbability": 20,
+				"saluteDuration": 2.0,
+
+				"blockProbability": 15,
+				"blockDuration": 3.0,
+
+				"orbitProbability": 33,
+				"orbitSpeed": 1.0
+			},
+			"life": 100.0,
+			"collider" : {
+				"shape": "capsule",
+			    "controller": true,
+			    "radius": 0.5,
+			    "height": 0.8,
+			    "group":"enemy",
+			    "mask":"all"
+			},
+			"tags" : ["enemy"]
+		}
+	}
+]

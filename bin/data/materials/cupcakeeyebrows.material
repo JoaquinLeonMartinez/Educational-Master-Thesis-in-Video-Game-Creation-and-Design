@@ -1,0 +1,8 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/Cejas_Base_Color.dds"
+    ,
+    "normal": "data/textures/Cejas_Normal.dds"
+  }
+}

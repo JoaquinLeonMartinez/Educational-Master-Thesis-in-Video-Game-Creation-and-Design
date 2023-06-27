@@ -1,0 +1,8 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/pila2.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+  }
+}

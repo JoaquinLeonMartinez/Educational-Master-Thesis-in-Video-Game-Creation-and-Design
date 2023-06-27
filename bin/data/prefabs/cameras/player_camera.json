@@ -1,0 +1,26 @@
+[
+	{
+		"entity" : {
+			"transform" : {
+				"pos" : "1 1 1",
+        		"lookat" : "0 0 0"
+			},		
+			"name" : "PlayerCamera",
+      		"culling": {},
+			"camera" : {
+			},
+			"camera_3rd_person" : {
+				"target" : "Player",
+		      	"curve" : "data/curves/camera_3rd_person.curve",
+		      	"curveIdle" : "data/curves/idleCurve.curve",
+		      	"ratio" : 0.5,
+		      	"targetOffset" : "0 2.0 0",
+		      	"pitchSensitivity" : 2,
+		      	"yawSensitivity" : 5,
+		      	"posOffset" : "0 0 0.75"
+			}
+		}
+	}
+]
+
+

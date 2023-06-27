@@ -1,0 +1,14 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/mapa_carnes/mat_fork_diffuse.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+    ,
+    "metallic": "data/textures/black.dds"
+    ,
+    "roughness": "data/textures/mapa_carnes/mat_fork_roughness.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

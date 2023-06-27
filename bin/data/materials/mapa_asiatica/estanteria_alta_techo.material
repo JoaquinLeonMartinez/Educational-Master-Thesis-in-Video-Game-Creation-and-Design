@@ -1,0 +1,10 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/mapa_asiatica/estanteria_china_forsp2_techo_estanteria_Diffuse.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

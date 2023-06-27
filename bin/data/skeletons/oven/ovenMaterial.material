@@ -1,0 +1,16 @@
+{
+  "technique": "objs_skin.tech"
+  ,
+  "shadows": true
+  ,
+  "textures":
+  {
+    "albedo": "data/textures/horno/Horno_gris-claro.dds"
+    ,
+    "normal": "data/textures/null_normal.dds"
+    ,
+    "roughness": "data/textures/Horno_Roughness.dds"
+    ,
+    "metallic": "data/textures/Horno_Metallic.dds"
+  }
+}

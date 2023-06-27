@@ -1,0 +1,10 @@
+{
+  "technique" : "death.tech",
+  "category" :"shine",
+  "textures":
+  {
+   "albedo": "data/textures/skybos_textura.dds",
+   "normal": "data/textures/vfx/T_Random_44.dds",
+   "metallic": "data/textures/vfx/T_Random_45.dds"
+  }
+}

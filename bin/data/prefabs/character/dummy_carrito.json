@@ -1,0 +1,47 @@
+[  
+  {
+    "entity":
+    {
+      "name": "Carrito"
+      ,
+      "transform":
+      {
+        "pos": "0 0 0"
+      }
+      ,
+      "render": {
+        "is_visible": false,
+        "mesh": "data/meshes/carrito01/carrito01_cart_001.mesh"
+        ,
+        "color": "0.105882 0.694118 0.345098 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/carrito/supermarket_cart_material.material"
+        ]
+      },
+      "bone_tracker":{
+        "bone": "bone_hip",
+        "parent": "Player"
+      },
+      "collider":
+        {
+          "shape": "box"
+          ,
+          "half_size": "1.2 0.2 0.2"
+          ,
+          "offset":
+          {
+            "pos": "0.5 0.0 0.0"
+          }
+          ,
+          "trigger": true,
+          "dynamic": true,
+          "kinematic": true,
+          "group":"weapon",
+          "mask": "VulnerableToMelee"
+        },
+	   "tags" : ["weapon"]
+    }
+  }
+]

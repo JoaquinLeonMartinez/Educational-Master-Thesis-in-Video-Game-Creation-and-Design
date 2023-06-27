@@ -1,0 +1,93 @@
+[
+  {
+    "entity":
+    {
+      "name": "SparkParticles",
+      "transform": {
+        "pos": "0 0 0",
+        "rotation": "0.0 0.0 0.0 1.0"
+      }
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/static_objects/UnitSphere.mesh",
+        "materials":
+        [
+          "data/materials/vfx/particles_spark.material"
+        ]
+      },
+      "comp_self_destroy" : {
+        "_isEnabled": true
+      },
+      "buffers" : {
+        "instances" : {
+          "desc" : "Array of active particles at the start of the frame",
+          "bytes_per_elem" : 96,
+          "num_elems" : 1024
+        },
+        "instances_active" : {
+          "desc" : "Array of active particles after the update",
+          "bytes_per_elem" : 96,
+          "num_elems" : 1024
+        },
+        "system" : {
+          "desc" : "Stores dynamic information of this system: num particles alive/dead/time to next spawn/...",
+          "bytes_per_elem" : 16,
+          "num_elems" : 1
+        },
+        "indirect_draw" : {
+          "desc" : "Arguments of the draw instanced indirect. 5 x uint",
+          "bytes_per_elem" : 20,
+          "num_elems" : 1,
+          "is_indirect" : true,
+          "init_indirect_from_mesh" : "data/meshes/static_objects/UnitSphere.mesh"
+        },
+        "indirect_update" : {
+          "desc" : "Arguments of the dispachIndirect, so the CPU never knows how many particles are alive. 3 x uint",
+          "bytes_per_elem" : 12,
+          "num_elems" : 1,
+          "is_indirect" : true
+        },
+        "TCtesParticles" : {
+          "desc" : "Cte buffer to control emission parameters and update parameters",
+          "time_between_spawns" : 0.2,
+          "num_particles_per_spawn" : 6,
+          "center_radius" : 0.1,
+          "dir_aperture" : 2.0,
+          "speed" : "1.5 3.3",
+          "pos" : "0 1 0",
+          "duration" : "0.28 0.73",
+          "colors" : [
+            [0.0, "0.0 0.5 1.0 1.0"],
+            [1.0, "0.0 0.5 1.0 1.0"]
+          ],
+          "sizes" : [
+            [0.0, 0.03],
+            [0.5, 0.03],
+            [1.0, 0.01]
+          ]
+        }
+      },
+      "compute" : [
+        {
+          "desc" : "Spawning just 1 thread",
+          "cs" : "cs_particles_spark_spawn.compute",
+          "sizes" : [1, 1, 1]
+        },
+        {
+          "desc" : "Updating as many thread groups as required & defined by the buffer indirect_update", 
+          "cs" : "cs_particles_spark_update.compute",
+          "sizes" : { 
+            "buffer": "indirect_update", 
+            "offset" : 0 
+          }
+        },
+        {
+          "swap_a" : "instances",
+          "swap_b" : "instances_active"
+        }
+      ],
+      "num_instances": "indirect_draw"
+    }
+  }
+]

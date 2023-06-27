@@ -1,0 +1,9 @@
+{
+  "technique" : "boom.tech",
+  "casts_shadows" : false,
+  "category" : "shine",
+  "textures":
+  {
+  "albedo": "data/textures/vfx/boom.dds"
+  }
+}

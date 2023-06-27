@@ -1,0 +1,63 @@
+[
+{
+    "entity":
+    {
+      "name": "enemy_spawner",
+			"render" : {
+        "mesh": "data/skeletons/horno/horno.mesh"
+        ,
+        "material": "data/materials/entrega_final2/MATERIAL_HORNO.material"
+			},
+      "transform":
+      {
+        "pos": "0 0 0"
+      },
+      "abs_aabb" : {},
+			"armature": {
+				"_unscaledTime": false,
+				"src": "data/skeletons/horno/horno.skeleton"
+			},
+			"prop_animator": {},
+      "collider":
+      {
+          "shapes":
+          [
+            {
+              "shape": "box"
+              ,
+              "half_size": "2.5 2.5 2.5"
+              ,
+              "offset":
+              {
+                "pos": "0.0 1.5 0.0"
+              }
+              ,
+              "trigger": false,
+              "group":"spawner"
+            },
+            {
+              "shape": "box"
+              ,
+              "half_size": "10.0 3.0 20.0"
+              ,
+              "offset":
+              {
+                "pos": "0.0 1.5 0.0"
+              }
+              ,
+              "trigger": true,
+              "group":"trigger"
+            }
+          ]
+      },
+      "comp_enemy_spawner":{
+        "_prefab": "data/prefabs/enemies/bt_cupcake.json"
+      },
+			"comp_checkpoint_register":{
+			  "prefab": "data/prefabs/structures/enemy_spawner.json",
+			  "entityTypeString": "CUPCAKE_SPAWNER"
+			},
+      "tags" : ["enemy", "scenario"]
+    }
+}
+]

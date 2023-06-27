@@ -1,0 +1,105 @@
+[
+  {
+    "entity": {
+      "name": "Fire",
+      "transform": {
+        "pos": "0 0 0",
+        "scale": 0.01
+      },
+      "render": {
+        "mesh": "data/meshes/static_objects/GeoSphere.mesh",
+        "color": "0.0 0.5 1.0 1.0",
+        "materials":
+        [
+          "data/materials/vfx/explosion.material"
+        ]
+      },
+      "comp_self_destroy" : {
+        "_isEnabled": true,
+        "_selfDestructDelay": 1.0
+      },
+      "scalable":{
+        "time_to_scale": 1.0,
+        "final_scale" : 0.86
+      }
+    }
+  },
+  {
+    "entity": {
+      "name": "Sparks",
+      "transform": {
+        "pos": "0 0 0",
+        "scale": 0.08
+      },
+      "render": {
+        "mesh": "data/meshes/static_objects/GeoSphere.mesh",
+        "color": "0.0 0.5 1.0 1.0",
+        "materials":
+        [
+          "data/materials/vfx/explosion2.material"
+        ]
+      },
+      "comp_self_destroy" : {
+        "_isEnabled": true,
+        "_selfDestructDelay": 1.0
+      },
+      "scalable":{
+        "time_to_scale": 1.0,
+        "final_scale" : 0.93
+      }
+    }
+  }
+  ,
+  {
+    "entity": {
+      "name": "Smoke",
+      "transform": {
+        "pos": "0 0 0",
+        "scale": 0.15
+      },
+      "render": {
+        "mesh": "data/meshes/static_objects/GeoSphere.mesh",
+        "color": "0.0 0.5 1.0 1.0",
+        "materials":
+        [
+          "data/materials/vfx/explosion3.material"
+        ]
+      },
+      "comp_self_destroy" : {
+        "_isEnabled": true,
+        "_selfDestructDelay": 1.0
+      },
+      "scalable":{
+        "time_to_scale": 1.0,
+        "final_scale" : 1.0
+      }
+    }
+  }
+  ,
+  {
+    "entity": {
+      "name": "FloorSmoke",
+      "transform": {
+        "pos": "0 0.1 0",
+        "scale": 1.85,
+        "pitch": 90
+      },
+      "render": {
+        "mesh": "unit_plane_xy.mesh",
+        "color": "0.0 0.5 1.0 1.0",
+        "materials":
+        [
+          "data/materials/vfx/explosion4.material"
+        ]
+      },
+      "comp_self_destroy" : {
+        "_isEnabled": true,
+        "_selfDestructDelay": 1.0
+      },
+      "scalable":{
+        "time_to_scale": 1.0,
+        "final_scale" : 2.75
+      }
+    }
+  }
+]

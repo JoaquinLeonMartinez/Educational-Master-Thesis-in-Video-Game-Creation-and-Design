@@ -1,0 +1,11 @@
+{
+  "technique": "objs_skin.tech"
+  ,
+  "shadows": true
+  ,
+  "textures":
+  {
+    "albedo": "data/textures/golem/golem_diffuse.dds",
+    "normal": "data/textures/1001_Normal_DirectX.dds"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "textures":
+  {
+    "albedo": "data/textures/mapa_asiatica/puerta_carga_Base_Color.dds"
+    ,
+    "normal": "data/textures/mapa_asiatica/puerta_carga_Normal.dds"
+    ,
+    "metallic": "data/textures/black.dds"
+    ,
+    "roughness": "data/textures/white.dds"
+    ,
+    "emissive": "data/textures/black.dds"
+  }
+}

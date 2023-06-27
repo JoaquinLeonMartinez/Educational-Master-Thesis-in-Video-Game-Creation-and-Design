@@ -1,0 +1,27 @@
+[
+  {
+    "entity":
+    {
+      "name": "puerta_horno"
+      ,
+      "transform":
+      {
+        "pos": "-0.397198 0.683077 2.36356"
+        ,
+        "rotation": "1.26796e-05 -1.77535e-07 -0.00135871 -0.999999"
+      }
+      ,
+      "render":
+      {
+        "mesh": "data/meshes/entrega_final2/entrega_final2_puerta_horno.mesh"
+        ,
+        "color": "0.105882 0.694118 0.580392 1.0"
+        ,
+        "materials":
+        [
+          "data/materials/entrega_final2/MATERIAL_HORNO.material"
+        ]
+      }
+    }
+  }
+]
